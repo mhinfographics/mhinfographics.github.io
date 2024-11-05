@@ -13,10 +13,12 @@ function addPortfolioCards() {
                 const card = document.createElement('div');
                 card.className = 'card project';
                 card.innerHTML = `
-                    <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
-                    <p class="date">${project.month}, ${project.year}</p>
-                    <p class="head">${project.headline}</p>
-                    <a href="${project.link}" target="_blank">View Project</a>
+                    <a href="${project.link}" target="_blank">
+                        <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
+                        <p class="date">${project.month}, ${project.year}</p>
+                        <p class="head">${project.headline}</p>
+                        <p class="desk">${project.category}</p>
+                    </a>
                 `;
                 container.appendChild(card);
             });
@@ -42,11 +44,12 @@ function addBlogCards() {
                 const card = document.createElement('div');
                 card.className = 'card project';
                 card.innerHTML = `
-                    <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
-                    <p class="category">${project.category}</p>
-                    <p class="date">${project.tag}</p>
-                    <p class="head">${project.headline}</p>
-                    <a href="${project.link}" target="_blank">View Post</a>
+                    <a href="${project.link}" target="_blank">    
+                        <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
+                        <p class="category">${project.category}</p>
+                        <p class="date">${project.tag}</p>
+                        <p class="head">${project.headline}</p>
+                    </a>
                 `;
                 container.appendChild(card);
             });
@@ -75,10 +78,11 @@ function addSketchCards() {
                 const card = document.createElement('div');
                 card.className = 'card project';
                 card.innerHTML = `
-                    <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
-                    <p class="date">${project.category}, ${project.tag}</p>
-                    <p class="head">${project.headline}</p>
-                    <a href="${project.link}" target="_blank">View Post</a>
+                    <a href="${project.link}" target="_blank">
+                        <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
+                        <p class="date">${project.category}, ${project.tag}</p>
+                        <p class="head">${project.headline}</p>
+                    </a>
                 `;
                 container.appendChild(card);
             });
@@ -135,10 +139,11 @@ function addMapsCards() {
                 const card = document.createElement('div');
                 card.className = 'card project';
                 card.innerHTML = `
-                    <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
-                    <p class="date">${project.category}, ${project.tag}</p>
-                    <p class="head">${project.headline}</p>
-                    <a href="${project.link}" target="_blank">More about this map</a>
+                    <a href="${project.link}" target="_blank">
+                        <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
+                        <p class="date">${project.category}, ${project.tag}</p>
+                        <p class="head">${project.headline}</p>
+                    </a>
                 `;
                 container.appendChild(card);
             });
