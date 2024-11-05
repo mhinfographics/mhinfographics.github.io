@@ -24,6 +24,7 @@
     border: 1px white solid;
     top: 14px;
     left: 14px;
+    pointer-events: none;
 }
 .cards_grid .card.title{
     padding-top: 60px;
@@ -47,22 +48,26 @@
 .cards_grid .card p{
     color: var(--darkColor);
     line-height: 1rem;
-    font-size: 11px;
+    font-size: 15px;
     font-weight: 300;
+    font-family: "Cormorant Garamond", serif;
+    line-height: 1.2rem;
 }
 .cards_grid .card p.date{
     margin-bottom: 5px;
     opacity: 0.6;
-    text-transform: capitalize;
-    font-size: 10px;
+    font-size: 15px;
     font-weight: 400;
 }
 .cards_grid .card p.head{
     margin-top: 0;
-    font-size: 12px;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
 }
 .cards_grid .card a{
     font-size: 9px;
+    position: static;
 }
 .cards_grid .card p.category{
     position: absolute;
@@ -75,6 +80,20 @@
     text-shadow: 1px 1px 2px var(--darkerColor);
     margin: 0;
     opacity: 0.9;
+}
+.cards_grid .card p.desk{
+    background-color: var(--softerColor);
+    margin: 15px 0 0 0;
+    border: 1px solid var(--softColor);
+    padding: 3px 6px;
+    width: fit-content;
+    border-radius: 3px;
+    color: var(--darkColor);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 .cards_grid.blogs .card.project::after{
     content: ' ';
