@@ -6,7 +6,8 @@
         "month": "October",
         "year": 2024,
         "headline": "Can 70 Moms Save a Species?",
-        "type": "latest"
+        "type": "latest",
+        "category":"Climate"
     },{
         "thumb": "nyt_092024_01.jpg",
         "link": "https://nyti.ms/3TOXFcY",
@@ -14,7 +15,8 @@
         "month": "September",
         "year": 2024,
         "headline": "Trump Wants to Jail His Political Adversaries. Here’s How He Could Do It",
-        "type": "recent"
+        "type": "recent",
+        "category":"Politics"
     },
     {
         "thumb": "nyt_082024_01.jpg",
@@ -23,7 +25,8 @@
         "month": "August",
         "year": 2024,
         "headline": "20 Things Seen and Heard at the Convention",
-        "type": "recent"
+        "type": "recent",
+        "category":"Politics"
     },
     {
         "thumb": "nyt_072024_01.jpg",
@@ -32,15 +35,7 @@
         "month": "July",
         "year": 2024,
         "headline": "What We Heard at the RNC in 20 Off-Stage Scenes",
-        "type": "recent"
-    },
-    {
-        "thumb": "nyt_092024_01.jpg",
-        "link": "https://www.nytimes.com/interactive/2024/07/19/us/politics/rnc-attendees-photos.html",
-        "media": "The New York Times",
-        "month": "July",
-        "year": 2024,
-        "headline": "Who Sat in Trump’s V.I.P. Box at the Convention?",
-        "type": "recent"
+        "type": "recent",
+        "category":"Politics"
     }
 ]
