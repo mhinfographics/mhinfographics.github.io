@@ -1,0 +1,191 @@
+a{text-decoration: none!important;}
+a::after{display: none;}
+/* p.intro{
+    margin: 110px auto 35px auto;
+    width: 100%;
+    max-width: 600px;
+    line-height: 1.5;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 500;
+    font-style: normal;
+    text-align: center;
+    font-size: 18px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+p.intro span{
+    color: var(--brickColor);
+    font-weight: 700;
+    display: block;
+    margin-bottom: 15px;
+    font-size: 2.2rem;
+}    */
+
+p{
+    line-height: 1.5;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+}
+p.intro{
+    margin: 0 auto 150px auto;
+    width: 100%;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+@media (min-width: 600px) {
+    p.intro { 
+        max-width: 260px;
+        padding: 0;
+    }
+}
+h2{
+    margin: 110px auto 15px auto;
+    color: black;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-align: center;
+}
+#arcade-cont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 20px;
+}
+#arcade-cont .project-card{
+    width: 300px;
+    height: auto;
+    min-height: 280px;
+    margin: 10px;
+    border-radius: 5px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+    position: relative;
+    padding: 30px;
+    box-sizing: border-box;
+    animation: cardLoadAnimation 0.3s ease-out;
+    transition: all 1s ease;  
+    border: 1px solid var(--softColor);
+    position: relative;
+}
+#arcade-cont .project-card:hover{
+    border: 1px solid var(--brickColor);
+}
+#arcade-cont .project-card .cover{
+    width: 125%;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    background-blend-mode: soft-light;
+    background-color: #4a2e13;
+    border-radius: 5px;
+    margin: -30px 0 0 -12.5%;
+    border-bottom: 1px dashed var(--brickColor);
+}
+#arcade-cont .project-card .cover.blend{
+    position: absolute;
+    top: 30px;
+    left: 38px;
+    opacity: 0;
+    background-blend-mode: normal;
+    width: 100%;
+    transition: all 1s ease-out;
+}
+#arcade-cont .project-card:hover .blend{
+    opacity: 1;
+}
+#arcade-cont .project-card .text{
+    width: 100%;
+    height: auto;
+}
+#arcade-cont .project-card .headline{
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1.2;
+}
+#arcade-cont .project-card .date{
+    font-family: "Roboto", serif;
+    font-size: 10px;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    opacity: 0.3;
+    margin: 0;
+    text-transform: uppercase;
+}
+#arcade-cont .project-card .outlet{
+    opacity: 0.6;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    margin-top: 0;
+}
+#arcade-cont .project-card .tags{
+    margin: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#arcade-cont .project-card .tags h4{
+    text-transform: capitalize;
+    margin: 2px;
+    display: grid;
+    color: var(--darkColor);
+    background-color: var(--softColor);
+    border-radius: 2px;
+    padding: 4px 8px;
+}
+#getmore{
+    width: 100%;
+    margin: 25px 0;
+    justify-content: center;
+    text-align: center;
+}
+#load-more-btn{
+    font-family: "Roboto", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    margin: 0 auto;
+    color: var(--brickColor);
+    padding: 15px 50px;
+    width: 100%;
+    max-width: 300px;
+    cursor: cell;
+    background-color: var(--softColor);
+    border-radius: 5px;
+    border: none;
+}
+@keyframes cardLoadAnimation {
+    from {
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+#menu .btn_arcade{
+    pointer-events: none;
+    opacity: 0.6;
+    border: 2px solid transparent;
+}
+@media (max-width: 768px){
+    #menu{right: 8px;}
+    #arcade-cont .project-card{width: 270px;}
+    #arcade-cont .project-card .cover{height: 125px;width: 128%;margin-left: -14%;}
+    #arcade-cont .project-card .cover.blend{display: none;}
+    p.intro {
+        margin-top: 15px;
+    }
+    p.intro span{
+        line-height: 1.1;
+        font-size: 1.8rem;
+    }
+}

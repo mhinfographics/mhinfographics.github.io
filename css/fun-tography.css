@@ -1,0 +1,123 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#menu .btn_maps{
+    pointer-events: none;
+    opacity: 0.6;
+    border: 2px solid transparent;
+}
+header .section-icon {
+    max-width: 260px;
+}
+p{
+    line-height: 1.5;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
+}
+p.intro{
+    margin: 0 auto 150px auto;
+    width: 100%;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+@media (min-width: 600px) {
+    p.intro { 
+        max-width: 260px;
+        padding: 0;
+    }
+}
+h2{
+    margin: 110px auto 15px auto;
+    color: black;
+    opacity: 0.8;
+    font-weight: 700;
+    font-size: 2.8rem;
+    text-align: center;
+}   
+#stories{
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+.story.white{
+    background-color: #fff;
+    padding: 50px 0;
+}
+#stories .story{margin-bottom: 50px;}
+#stories .story .wrapper{
+    width: calc(100% - 30px);
+    max-width: 1200px;
+    padding: 75px 25px;
+    margin: 0px auto 10px auto;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    position: relative;
+    text-align: left;
+    box-sizing: border-box;
+}
+#stories .story .wrapper .featured{
+    width: 100%;
+    height: auto;
+}
+#stories .story .wrapper h3{
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin:0;
+}
+#stories .story .wrapper .text{
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto 60px auto;
+
+}
+#stories .story .wrapper .text .desc {
+    column-count: 1;
+    column-gap: 30px;
+}
+
+@media (min-width: 600px) {
+    #stories .story .wrapper .text .desc {
+        column-count: 3;
+    }
+}
+#stories .story .wrapper .text .closing{
+    max-width: 420px;
+}
+#stories .story .wrapper .text .date{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 12px;
+    margin: 25px 0 0 0;
+    color: var(--darkerColor);
+}
+#stories .story .wrapper .complements{
+    padding: 10px;
+    text-align: center;
+}
+#stories .story .wrapper .complements .complement{
+    width: 100%;
+    max-width: 520px;
+    height: auto;
+    display: inline-block;
+}
+.load_more{
+    font-family: "Roboto", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    margin: 0 auto;
+    color: var(--brickColor);
+    padding: 15px 50px;
+    width: 100%;
+    max-width: 300px;
+    cursor: cell;
+    background-color: var(--softColor);
+    border-radius: 5px;
+    border: none;
+}

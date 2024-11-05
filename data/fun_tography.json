@@ -1,0 +1,26 @@
+[
+    {
+        "date": "Nov. 2023",
+        "theme": "white",
+        "title": "Snowy Christmas",
+        "description": "I wrote a post at the end of 2023 while seeing a few snowflakes in NYC. On 2022 we barely saw snow in New York, so I was crossing fingers for a rare chance of a white Christmas. I collected data from the US National Ice Center <a href='https://usicecenter.gov/'>usicecenter.gov</a> to make the map below showing the extent of the snow. The purple spots are population density from the <a href='https://sedac.ciesin.columbia.edu/'>SEDAC</a>.",
+        "main": "snowmap_nov30_2023.jpg",
+        "complement_01": "snow2023-nov-1.gif",
+        "complement_02": "",
+        "complement_03": "",
+        "complement_04": "",
+        "closing": "There was no snow in NYC on Christmas, but I had a great time with my family tho."
+    },
+    {
+        "date": "May 2022",
+        "title": "Endeavour",
+        "theme": "gray",
+        "description": "En Febrero del 2000, el sistema de radar abordo del transbordador Endeavour capturó datos para crear un modelo digital de las masas continentales de nuestro planeta. Los sets de datos se pusieron al alcance del publico en general 14 años después por orden de La Casa Blanca, aun hoy el SRTM-30 es una de las colecciones de información global más detalladas de libre acceso.",
+        "main": "raster3.jpg",
+        "complement_01": "sarapiqui_v1-crop01.jpg",
+        "complement_02": "sarapiqui_v1-crop02.jpg",
+        "complement_03": "sarapiqui_v1-crop03.jpg",
+        "complement_04": "sarapiqui_v1-crop04.jpg",
+        "closing": "Miles de personas las hemos usado por años para diversas aplicaciones. Lea más sobre el <a href='https://www2.jpl.nasa.gov/srtm'>SRTM aquí.</a>."
+    }
+]
