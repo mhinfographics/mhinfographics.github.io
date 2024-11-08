@@ -11,7 +11,7 @@ window.onload = function () {
         .then(response => response.json())
         .then(data => {
             projects = data;
-            displayCard();
+            displayInitialCards();
             createLoadMoreButton();
         })
         .catch(error => console.error('Error fetching portfolio data:', error));
@@ -44,6 +44,12 @@ window.onload = function () {
             `;
             container.appendChild(card);
             currentIndex++;
+        }
+    }
+
+    function displayInitialCards() {
+        for (let i = 0; i < 2; i++) {
+            displayCard();
         }
     }
 
