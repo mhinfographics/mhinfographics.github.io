@@ -86,6 +86,7 @@ h2{
 }
 #stories .story .wrapper .text .closing{
     max-width: 420px;
+    margin-top: 80px;
 }
 #stories .story .wrapper .text .date{
     font-family: "Roboto", sans-serif;
@@ -105,7 +106,14 @@ h2{
     height: auto;
     display: inline-block;
 }
-.load_more{
+#stories .story .wrapper .complements .featured{
+    width: 100%;
+    height: auto;
+    max-width: 1045px;
+    margin: 30px auto 0 auto;
+}
+#moreStories{text-align: center;}
+#moreStories .load_more{
     font-family: "Roboto", serif;
     font-size: 13px;
     font-weight: 400;

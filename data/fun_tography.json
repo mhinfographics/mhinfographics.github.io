@@ -15,13 +15,14 @@
         "date": "Feb 2022",
         "title": "Santa María de Dota",
         "theme": "transparent",
-        "description": "Santa María de Dota, mi pueblo natal, es un distrito en la provincia de San José, Costa Rica. Dota en genral es conocido por su café y su clima fresco. He hecho varios mapas de mi pueblo por diversion, y este es uno de ellos. He agregado un par de detalles como mi casa detacada sin razon alguna, pero ademas recordar los barrros y los rios que cruzan el pueblo traen a mi memoria muchos recuerdos de mis años en estos valles que se elevan por encima de los dos mil metros sobre el nivel del mar.",
+        "description": "Santa María de Dota, mi pueblo natal, es un distrito de la provincia de San José, Costa Rica. Dota en general es conocida por su café y su clima fresco. He hecho varios mapas de mi pueblo por diversión, y este es uno de ellos. He añadido un par de detalles como mi casa resaltada sin ningún motivo, pero también recordar el lodo y los ríos que atraviesan el pueblo me traen muchos recuerdos de mis años en estos valles que se elevan a más de dos mil metros sobre el nivel del mar.",
         "main": "dota_map_v1.jpg",
-        "complement_01": "dota_map_v1_d02.jpg",
-        "complement_02": "dota_map_v1_d01.jpg",
+        "complement_01": "dota_map_v1_d01.jpg",
+        "complement_02": "dota_map_v1_d02.jpg",
         "complement_03": "dota_map_v2_01.jpg",
-        "complement_04": "dota_map_v2_smaller.jpg",
-        "closing": "Creci entre cafetales, montañas y rios. Y aunque no vivo en Dota desde hace muchos años, siempre será mi hogar. Que mejor forma de celebrar mis raices que con un mapa de mi pueblo."
+        "complement_04": "dota_map_v2_02.jpg",
+        "super": "dota_map_v2.jpg",
+        "closing": "Crecí entre cafetales, montañas y ríos. Y aunque ya hace muchos años que no vivo en Dota, siempre será mi hogar. Qué mejor manera de celebrar mis raíces que con un mapa de mi pueblo."
     },
     {
         "date": "May 2021",

@@ -38,6 +38,7 @@ window.onload = function () {
                         ${project.complement_02 ? `<img class="complement" src="img/maps/${project.complement_02}" alt="Map detail">` : ''}
                         ${project.complement_03 ? `<img class="complement" src="img/maps/${project.complement_03}" alt="Map detail">` : ''}
                         ${project.complement_04 ? `<img class="complement" src="img/maps/${project.complement_04}" alt="Map detail">` : ''}
+                        ${project.super ? `<img class="featured" src="img/maps/${project.super}" alt="Map alternative">` : ''}
                     </div>
                 </div>    
             `;
@@ -47,7 +48,7 @@ window.onload = function () {
     }
 
     function createLoadMoreButton() {
-        const container = document.getElementById('stories');
+        const container = document.getElementById('moreStories');
         const button = document.createElement('button');
         button.className = 'load_more';
         button.innerText = 'Read one more story';
