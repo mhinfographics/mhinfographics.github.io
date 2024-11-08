@@ -60,7 +60,7 @@ p,a{
     text-decoration: none;
     color: var(--brickColor);
     position: relative;
-    font-size: 11px;
+    font-size: 13px;
 }
 /*
 .cards_grid a::after{

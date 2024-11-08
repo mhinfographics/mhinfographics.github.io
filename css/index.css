@@ -66,8 +66,9 @@
     margin-bottom: 0;
 }
 .cards_grid .card a{
-    font-size: 9px;
+    /* font-size: 9px; */
     position: static;
+    font-weight: 700;
 }
 .cards_grid .card p.category{
     position: absolute;
