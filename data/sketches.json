@@ -1,5 +1,11 @@
 [
     {
+        "thumb": "sketch_y2-w23.jpg",
+        "link": "https://sundaysketchbook.art/#:~:text=year%20II-,year%20ii%2C%20week%C2%A023,-This%20week%E2%80%99s%20creature",
+        "category": "Mythological creatures",
+        "tag": "Week 23",
+        "headline": "Trolls, Norway"
+    },{
         "thumb": "sketch_y2-w22.jpg",
         "link": "https://sundaysketchbook.art/#:~:text=year%20II-,year%20ii%2C%20week%C2%A022,-A%20few%20years",
         "category": "Mythological creatures",
@@ -11,12 +17,6 @@
         "category": "Mythological creatures",
         "tag": "Week 19",
         "headline": "Huldufólk, Iceland"
-    },{
-        "thumb": "sketch_y2-w18.jpg",
-        "link": "https://sundaysketchbook.art/#:~:text=ii%2C%20Week%C2%A019-,year%20ii%2C%20Week%C2%A018,-Hi%20there%2C%20tanks",
-        "category": "Mythological creatures",
-        "tag": "Week 18",
-        "headline": "Leprechaun, Ireland"
     },{
         "thumb": "sketch_year1.jpg",
         "link": "https://sundaysketchbook.art/about/",
@@ -47,5 +47,23 @@
         "category": "Mythological creatures",
         "tag": "Week 14",
         "headline": "A past that merges with the future in a meaningless thing just for fun."
+    },{
+        "thumb": "sketch_y2-w11.jpg",
+        "link": "https://sundaysketchbook.art/#:~:text=II%2C%20week%C2%A012-,year%20II%2C%20week%C2%A011,-Camazotz",
+        "category": "Mythological creatures",
+        "tag": "Week 11",
+        "headline": "The camazotz is the Mayan equivalent of the dark detective hero from comics, isn’t that cool?"
+    },{
+        "thumb": "sketch_y1-w40.jpg",
+        "link": "https://sundaysketchbook.art/page/2/#:~:text=on%20Week%2041-,Week%2040,-Nothing%20infringes%20more",
+        "category": "Bug of the week",
+        "tag": "Week 40",
+        "headline": "Nothing infringes more respect that taking your saddleback caterpillar for a ride in the park."
+    },{
+        "thumb": "sketch_y1-w38.jpg",
+        "link": "https://sundaysketchbook.art/page/2/#:~:text=on%20Week%2039-,Week%2038,-Talking%20to%20a",
+        "category": "Bug of the week",
+        "tag": "Week 40",
+        "headline": "The Surinam plant-hopper in its nymph phase, also known as the troll-bug."
     }
 ]

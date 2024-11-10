@@ -30,9 +30,9 @@ window.onload = function () {
                         <p class="desc">${project.description}</p>
                     </div>
                     <img class="featured" src="img/maps/${project.main}" alt="${project.title}">
-                    <div class="text">
+                    ${project.closing ? `<div class="text">
                         <p class="closing">${project.closing}</p>
-                    </div>
+                    </div>` : ''} 
                     <div class="complements">    
                         ${project.complement_01 ? `<img class="complement" src="img/maps/${project.complement_01}" alt="Map detail">` : ''}
                         ${project.complement_02 ? `<img class="complement" src="img/maps/${project.complement_02}" alt="Map detail">` : ''}
