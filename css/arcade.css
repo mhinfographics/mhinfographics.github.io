@@ -37,7 +37,7 @@ p.intro{
 }
 @media (min-width: 600px) {
     p.intro { 
-        max-width: 260px;
+        max-width: 610px;
         padding: 0;
     }
 }

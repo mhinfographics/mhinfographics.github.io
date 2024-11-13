@@ -26,7 +26,7 @@ p.intro{
 }
 @media (min-width: 600px) {
     p.intro { 
-        max-width: 260px;
+        max-width: 610px;
         padding: 0;
     }
 }
@@ -85,7 +85,7 @@ h2{
     }
 }
 #stories .story .wrapper .text .closing{
-    max-width: 420px;
+    max-width: 610px;
     margin-top: 80px;
 }
 #stories .story .wrapper .text .date{
