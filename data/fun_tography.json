@@ -2,6 +2,16 @@
     {
         "date": "Nov. 2024",
         "theme": "transparent",
+        "title": "Selenge Delta, Republic of Buryatia",
+        "description": "The Selenge/Selenga River Delta, is one of the <a href='https://www.sciencedirect.com/science/article/abs/pii/S0048969723008616#:~:text=The%20first%2C%20the%20Selenga%20Delta,many%20of%20Baikal's%20endemic%20species.'>largest inland freshwater floodplains in the world.</a><br>There are amazing satellite images of this place, not much SAR data tho or at least not that I know of. The resolution of the data on these areas is actually low from Open Source data, and that's why I picked up this place to try a <a href='https://www.google.com/search?sca_esv=c6004f725def933e&rlz=1C5GCCM_en&sxsrf=ADLYWILikr3MybqOF9Po2d6bjaXn04xOvQ:1731601891780&q=voxel+art+map&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94oGSh4l60tfPppA0C5BN3Bom6kHGpJHn7EVuNALQGJ5ELjblSaUQRDzTIoRChFVih86lfg01TabqatiNk20mkNpY__RVoQeT3jGRgQ6KEn1g5qjbgicZddTtVrtQ07A8dVjf4r6IAy7fZotEXFJ9l3hDOjyig&sa=X&ved=2ahUKEwiGg5vdn9yJAxXCEVkFHTZTLn8QtKgLegQIFhAB&biw=1728&bih=958&dpr=2'>Voxcel Theme on it.</a>",
+        "main": "selenge.jpg",
+        "complement_01": "selenge-detail-03.jpg",
+        "complement_02": "selenge-detail-02.jpg",
+        "super": "selenge-detail-01.jpg",
+        "closing": "I think games and art are an awesome source of inspitarion for these type of maps. Not sure if I'll be ever able to publish for real a thing like this, but who knows... maybe I should give a try."
+    },{
+        "date": "Nov. 2024",
+        "theme": "transparent",
         "title": "Bali, Indonesia",
         "description": "The paradisiac Bali. In terms of the island's economy, tourism is the most important. Bali is one of the richest regions in Indonesia. For the past 20 or 30 years, the island has been turning to tourism, according to media such as <a href='https://web.archive.org/web/20080821140830/http://www.time.com/time/magazine/article/0,9171,393799,00.html'>Time Magazine.</a>",
         "main": "bali-v1.jpg",

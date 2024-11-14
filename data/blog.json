@@ -12,16 +12,16 @@
         "tag": "Mini-stories",
         "headline": "2023: The year in graphics"
     },{
-        "thumb": "mhi_food.jpg",
-        "link": "https://mhinfographics.com/2023/04/11/infofails-mapping-taiwanese-food/",
-        "category": "Infofails",
-        "tag": "Dataviz",
-        "headline": "Taiwanese vs Chinese food"
-    },{
         "thumb": "mhi_smoke.jpg",
         "link": "https://mhinfographics.com/2022/07/04/visualizing-organic-carbon-in-near-real-time-a-step-by-step-guide/",
         "category": "Tutorial",
         "tag": "Dataviz",
         "headline": "Visualizing organic carbon in near real time. –A step-by-step guide"
+    },{
+        "thumb": "mhi_food.jpg",
+        "link": "https://mhinfographics.com/2023/04/11/infofails-mapping-taiwanese-food/",
+        "category": "Infofails",
+        "tag": "Dataviz",
+        "headline": "Taiwanese vs Chinese food"
     }
 ]
