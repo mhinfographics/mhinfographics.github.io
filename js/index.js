@@ -1,7 +1,12 @@
 // cards
 
-window.onload = function () { addPortfolioCards(); addBlogCards(); addSketchCards(); addtalkCards(); addMapsCards(); };
-
+window.onload = function () { addPortfolioCards(); addBlogCards(); addSketchCards(); addtalkCards(); addMapsCards(); addAwardCards(); menuCheck();};
+function menuCheck(){
+    document.querySelectorAll('.btn_home').forEach(button => {
+        button.setAttribute('disabled', 'true');
+        button.classList.add('disabled');
+    });
+}
 function addPortfolioCards() {
     fetch('data/cards.json')
         .then(response => response.json())
@@ -149,6 +154,37 @@ function addMapsCards() {
             });
         }).catch(error => console.error('Error fetching portfolio data:', error));
 }
-document.querySelectorAll('.btn_home').forEach(button => {
-    button.setAttribute('disabled', 'true');
-});
+
+function addAwardCards() {
+    fetch('data/awards.json')
+        .then(response => response.json())
+        .then(data => {
+            // Shuffle the array
+            const shuffledProjects = data.sort(() => 0.5 - Math.random());
+            // Select the first 3 projects
+            const projects = shuffledProjects.slice(0, 3);
+            const container = document.getElementById('awards-container');
+
+            projects.forEach(project => {
+                const card = document.createElement('div');
+                card.className = 'card project';
+                card.innerHTML = `
+                    <a href="${project.link}" target="_blank">
+                        <img class="thumb" src="img/awards/${project.thumb}" alt="${project.category}">
+                        <p class="category">${project.category}</p>
+                        <p class="head">${project.headline}</p>
+                    </a>
+                `;
+                container.appendChild(card);
+            });
+        }).then(() => {
+            let learnMore = document.createElement('div');
+            learnMore.classList.add('card', 'learn-more');
+            const container = document.getElementById('awards-container');
+            container.appendChild(learnMore);
+
+            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Thanks to all the organizations that have recognized my work for so many years. For a complete list ,please </p><a href='https://mhinfographics.com/awards'>visit mhinfographics.com /awards</a>";
+            learnMore.innerHTML = learnMoreCard;
+        })
+        .catch(error => console.error('Error fetching portfolio data:', error));
+}

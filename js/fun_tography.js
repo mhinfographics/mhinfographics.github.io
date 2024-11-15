@@ -1,9 +1,6 @@
-document.querySelectorAll('.btn_maps').forEach(button => {
-    button.setAttribute('disabled', 'true');
-});
-
 //load stories
 window.onload = function () {
+    menuCheck();
     let currentIndex = 0;
     let projects = [];
 
@@ -68,3 +65,9 @@ window.onload = function () {
         container.appendChild(button);
     }
 };
+function menuCheck(){
+    document.querySelectorAll('.btn_maps').forEach(button => {
+        button.setAttribute('disabled', 'true');
+        button.classList.add('disabled');
+    });
+}

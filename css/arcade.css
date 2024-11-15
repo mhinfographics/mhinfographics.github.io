@@ -1,26 +1,5 @@
 a{text-decoration: none!important;}
 a::after{display: none;}
-/* p.intro{
-    margin: 110px auto 35px auto;
-    width: 100%;
-    max-width: 600px;
-    line-height: 1.5;
-    font-family: "Cormorant Garamond", serif;
-    font-weight: 500;
-    font-style: normal;
-    text-align: center;
-    font-size: 18px;
-    padding: 30px;
-    box-sizing: border-box;
-}
-p.intro span{
-    color: var(--brickColor);
-    font-weight: 700;
-    display: block;
-    margin-bottom: 15px;
-    font-size: 2.2rem;
-}    */
-
 p{
     line-height: 1.5;
     font-family: "Cormorant Garamond", serif;
@@ -46,7 +25,7 @@ h2{
     color: black;
     opacity: 0.8;
     font-weight: 700;
-    font-size: 2.8rem;
+    font-size: 2.4rem;
     text-align: center;
 }
 #arcade-cont{
@@ -171,11 +150,6 @@ h2{
         transform: scale(1);
     }
 }
-#menu .btn_arcade{
-    pointer-events: none;
-    opacity: 0.6;
-    border: 2px solid transparent;
-}
 @media (max-width: 768px){
     #menu{right: 8px;}
     #arcade-cont .project-card{width: 270px;}
@@ -188,4 +162,12 @@ h2{
         line-height: 1.1;
         font-size: 1.8rem;
     }
+}
+
+@media screen and (max-width: 600px) {
+    h2{
+        text-align: left;
+        padding-left: 20px;
+        font-size: 2rem;
+    } 
 }

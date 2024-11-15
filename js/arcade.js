@@ -1,5 +1,6 @@
 // cards
 window.onload = function() {
+    menuCheck();
     let currentIndex = 0;
     const cardsPerPage = 15;
     let projects = [];
@@ -70,6 +71,9 @@ window.onload = function() {
     }
 };
 
-document.querySelectorAll('.btn_arca').forEach(button => {
-    button.setAttribute('disabled', 'true');
-});
+function menuCheck(){
+    document.querySelectorAll('.btn_arca').forEach(button => {
+        button.setAttribute('disabled', 'true');
+        button.classList.add('disabled');
+    });
+}

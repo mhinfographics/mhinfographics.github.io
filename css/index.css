@@ -131,11 +131,13 @@
 #arcade-container a::after{
     display: none;
 }
-#menu .btn_home{
-    pointer-events: none;
-    opacity: 0.6;
-    border: 2px solid transparent;
+#awards-container .card p.head{
+    font-size: 14px;
 }
+#awards-container .card.learn-more{
+    padding: 20px;
+}
+#awards-container .card.learn-more .row-icon{margin-top: 0;}
 @media (max-width: 768px){
     .cards_grid{flex-direction: column;}
     .cards_grid .card{max-width: 225px;}

@@ -184,16 +184,22 @@ footer ul li{
     background-size: 60%;
     background-repeat: no-repeat;
     background-position: center;
-    border: 2px solid var(--darkerColor);
+    border: 1px solid #7a724c29;
+}
+#menu li.disabled{
+    background-color: var(--darkColor);
+    pointer-events: none;
+    opacity: 0.2;
+    background-blend-mode: color-burn;
 }
 #menu li.btn_home{
-    background-image: url('../img/svg/icon_home.svg');
+    background-image: url('../img/svg/icon_home_v2.svg');
 }
-#menu li.btn_arcade{
-    background-image: url('../img/svg/icon_arcade.svg');
+#menu li.btn_arca{
+    background-image: url('../img/svg/icon_arcade_v2.svg');
 }
 #menu li.btn_maps{
-    background-image: url('../img/svg/icon_maps.svg');
+    background-image: url('../img/svg/icon_maps_v2.svg');
 }
 #menu a::after{
     display: none;
