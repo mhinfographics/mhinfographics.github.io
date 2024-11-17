@@ -1,5 +1,17 @@
 [
     {
+        "thumb": "mhi_2024review.jpg",
+        "link": "https://mhinfographics.com/2024/11/17/2024-the-year-in-graphics/",
+        "category": "2024 in Review",
+        "tag": "Mini-stories",
+        "headline": "2024: The year in graphics"
+    },{
+        "thumb": "mhi_smoke.jpg",
+        "link": "https://mhinfographics.com/2022/07/04/visualizing-organic-carbon-in-near-real-time-a-step-by-step-guide/",
+        "category": "Tutorial",
+        "tag": "Dataviz",
+        "headline": "Visualizing organic carbon in near real time. –A step-by-step guide"
+    },{
         "thumb": "mhi_ukraine.jpg",
         "link": "https://mhinfographics.com/2024/06/22/visualizing-the-destruction-in-ukraine-a-years-long-project-following-satellite-clues/",
         "category": "Infofails",
@@ -8,20 +20,8 @@
     },{
         "thumb": "mhi_2023review.jpg",
         "link": "https://mhinfographics.com/2023/12/02/2023-the-year-in-graphics/",
-        "category": "Year in Review",
+        "category": "2023 in Review",
         "tag": "Mini-stories",
         "headline": "2023: The year in graphics"
-    },{
-        "thumb": "mhi_smoke.jpg",
-        "link": "https://mhinfographics.com/2022/07/04/visualizing-organic-carbon-in-near-real-time-a-step-by-step-guide/",
-        "category": "Tutorial",
-        "tag": "Dataviz",
-        "headline": "Visualizing organic carbon in near real time. –A step-by-step guide"
-    },{
-        "thumb": "mhi_food.jpg",
-        "link": "https://mhinfographics.com/2023/04/11/infofails-mapping-taiwanese-food/",
-        "category": "Infofails",
-        "tag": "Dataviz",
-        "headline": "Taiwanese vs Chinese food"
     }
 ]
