@@ -73,8 +73,16 @@ function addSketchCards() {
         .then(data => {
             // Shuffle the array
             const shuffledProjects = data.sort(() => 0.5 - Math.random());
-            // Select the first 3 projects
-            const projects = shuffledProjects.slice(0, 3);
+            // Select 3 unique random projects
+            const projects = [];
+            const usedIndices = new Set();
+            while (projects.length < 3 && usedIndices.size < data.length) {
+                const randomIndex = Math.floor(Math.random() * data.length);
+                if (!usedIndices.has(randomIndex)) {
+                    projects.push(data[randomIndex]);
+                    usedIndices.add(randomIndex);
+                }
+            }
             const container = document.getElementById('sketch-container');
 
             projects.forEach(project => {
