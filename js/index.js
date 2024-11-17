@@ -1,5 +1,3 @@
-// cards
-
 window.onload = function () { addPortfolioCards(); addBlogCards(); addSketchCards(); addtalkCards(); addMapsCards(); addAwardCards(); menuCheck();};
 function menuCheck(){
     document.querySelectorAll('.btn_home').forEach(button => {
@@ -8,7 +6,7 @@ function menuCheck(){
     });
 }
 function addPortfolioCards() {
-    fetch('data/cards.json')
+    fetch('data/highlights.json')
         .then(response => response.json())
         .then(data => {
             const projects = data.slice(0, 3);
