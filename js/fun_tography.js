@@ -20,7 +20,7 @@ window.onload = function () {
             const card = document.createElement('div');
             card.className = `story ${project.theme}`;
             card.innerHTML = `
-                <div class="wrapper">
+                <div class="wrapper" id="proj-id_${project.sequence}">
                     <div class="text">
                         <p class="date">${project.date}</p>
                         <h3>${project.title}</h3>
@@ -45,7 +45,7 @@ window.onload = function () {
     }
 
     function displayInitialCards() {
-        for (let i = 0; i < 2; i++) {
+        for (let i = 0; i < 3; i++) {
             displayCard();
         }
     }

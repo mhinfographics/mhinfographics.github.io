@@ -1,5 +1,6 @@
 [
     {
+        "sequence": "m07",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Selenge Delta, Republic of Buryatia",
@@ -10,6 +11,7 @@
         "super": "selenge-detail-01.jpg",
         "closing": "I think games and art are an awesome source of inspitarion for these type of maps. Not sure if I'll be ever able to publish for real a thing like this, but who knows... maybe I should give a try."
     },{
+        "sequence": "m06",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Bali, Indonesia",
@@ -21,6 +23,7 @@
         "complement_04": "bali-detail04.jpg",
         "closing": "However, tourists have brought some development to the island, but as with other natural paradises, this comes at a price. <br><br> A few years ago I spent a few days between Denpasar and Nusa Dua, and I can attest to how wonderful this place is. Perhaps those of us who visit these natural paradises should be more aware of what our days of joy can represent for the locals."
     },{
+        "sequence": "m05",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Lantau, Hong Kong",
@@ -29,6 +32,7 @@
         "complement_01": "lantau-detail-01.jpg",
         "complement_02": "lantau-detail-02.jpg"
     },{
+        "sequence": "m04",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Singapore",
@@ -40,6 +44,7 @@
         "complement_04": "singapore_v01_d04.jpg",
         "closing": "To my friends there, I hope you all are doing great, living the good life. You are always in my thoughts."
     },{
+        "sequence": "m03",
         "date": "Nov. 2023",
         "theme": "white",
         "title": "Snowy Christmas",
@@ -52,6 +57,7 @@
         "closing": "There was no snow in NYC on Christmas, but I had a great time with my family tho."
     },
     {
+        "sequence": "m02",
         "date": "Feb 2022",
         "title": "Santa María de Dota",
         "theme": "transparent",
@@ -65,6 +71,7 @@
         "closing": "Crecí entre cafetales, montañas y ríos. Y aunque ya hace muchos años que no vivo en Dota, siempre será mi hogar. Qué mejor manera de celebrar mis raíces que con un mapa de mi pueblo."
     },
     {
+        "sequence": "m01",
         "date": "May 2021",
         "title": "Endeavour",
         "theme": "transparent",
