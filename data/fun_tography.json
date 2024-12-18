@@ -1,10 +1,30 @@
 [
     {
+        "sequence": "m09",
+        "date": "Dec. 2024",
+        "theme": "white",
+        "title": "The land of Brits' disappointment",
+        "description": "While surfing the web, I stumbled with this place called <a href='https://en.wikipedia.org/wiki/Disappointment_Island' target='_blank'>Disappointment Island</a>. At first glance, I thought wasn't real, but actually is a thing you can put type and find in <a href='https://maps.app.goo.gl/BPXJsQUBSw62seWSA' target='_blank'>google maps!</a><br> This tiny human-uninhabited island in the subantarctic Auckland Islands of New Zealand was just perfect for a hand-drawn map, I thought immediately.",
+        "main": "disappointment.jpg",
+        "complement_01": "disappointment-detail-01.jpg",
+        "complement_02": "disappointment-detail-02.jpg",
+        "closing": "If the images that came out of google are accurate, this place is not dissapointing at all, or at least not in the summer. Accoringly to Wiki, on 1907, the Dundoland shipwrecked near the west side of the island and the surviving crew was stranded there for seven months. However, its european name, ´Disappointment´ Wiki says, was given to it by another british sailor who was there conducting a survey of fur seals. –Spoiler– He didn't find any, so He named the island after the results of his expedition. –Dissapointing Island."
+    },{
+        "sequence": "m08",
+        "date": "Dec. 2024",
+        "theme": "white",
+        "title": "Footprints of damage",
+        "description": "This is more of an infofail than a fun map. In late 2024, I was doing research for a tornado piece I posted in December, but some of the information we didn't use included building footprints from other extreme events that occurred during the year. You can read more about this fail on my graphics <a href='https://mhinfographics.com/2024/12/18/infofails-2024-mapping-destruction-across-the-u-s/' target='_blank'>blog here.</a>",
+        "main": "florida2024-buildings.jpg",
+        "complement_01": "florida2024-buildings-detail01.jpg",
+        "complement_02": "florida2024-buildings-detail02.jpg",
+        "closing": "These maps show clusters of buildings damaged by hurricanes Milton and Helene in 2024. Each red box is a 5 km cluster, the higher and more saturated the color, the more damaged buildings. Learn more about <a href='https://mhinfographics.com/2024/12/18/infofails-2024-mapping-destruction-across-the-u-s/' target='_blank'>this infofail here.</a>"
+    },{
         "sequence": "m07",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Selenge Delta, Republic of Buryatia",
-        "description": "The Selenge/Selenga River Delta, is one of the <a href='https://www.sciencedirect.com/science/article/abs/pii/S0048969723008616#:~:text=The%20first%2C%20the%20Selenga%20Delta,many%20of%20Baikal's%20endemic%20species.'>largest inland freshwater floodplains in the world.</a><br>There are amazing satellite images of this place, not much SAR data tho or at least not that I know of. The resolution of the data on these areas is actually low from Open Source data, and that's why I picked up this place to try a <a href='https://www.google.com/search?sca_esv=c6004f725def933e&rlz=1C5GCCM_en&sxsrf=ADLYWILikr3MybqOF9Po2d6bjaXn04xOvQ:1731601891780&q=voxel+art+map&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94oGSh4l60tfPppA0C5BN3Bom6kHGpJHn7EVuNALQGJ5ELjblSaUQRDzTIoRChFVih86lfg01TabqatiNk20mkNpY__RVoQeT3jGRgQ6KEn1g5qjbgicZddTtVrtQ07A8dVjf4r6IAy7fZotEXFJ9l3hDOjyig&sa=X&ved=2ahUKEwiGg5vdn9yJAxXCEVkFHTZTLn8QtKgLegQIFhAB&biw=1728&bih=958&dpr=2'>Voxcel Theme on it.</a>",
+        "description": "The Selenge/Selenga River Delta, is one of the <a href='https://www.sciencedirect.com/science/article/abs/pii/S0048969723008616#:~:text=The%20first%2C%20the%20Selenga%20Delta,many%20of%20Baikal's%20endemic%20species.' target='_blank'>largest inland freshwater floodplains in the world.</a><br>There are amazing satellite images of this place, not much SAR data tho or at least not that I know of. The resolution of the data on these areas is actually low from Open Source data, and that's why I picked up this place to try a <a href='https://www.google.com/search?sca_esv=c6004f725def933e&rlz=1C5GCCM_en&sxsrf=ADLYWILikr3MybqOF9Po2d6bjaXn04xOvQ:1731601891780&q=voxel+art+map&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94oGSh4l60tfPppA0C5BN3Bom6kHGpJHn7EVuNALQGJ5ELjblSaUQRDzTIoRChFVih86lfg01TabqatiNk20mkNpY__RVoQeT3jGRgQ6KEn1g5qjbgicZddTtVrtQ07A8dVjf4r6IAy7fZotEXFJ9l3hDOjyig&sa=X&ved=2ahUKEwiGg5vdn9yJAxXCEVkFHTZTLn8QtKgLegQIFhAB&biw=1728&bih=958&dpr=2'>Voxcel Theme on it.</a>",
         "main": "selenge.jpg",
         "complement_01": "selenge-detail-03.jpg",
         "complement_02": "selenge-detail-02.jpg",
@@ -15,7 +35,7 @@
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Bali, Indonesia",
-        "description": "The paradisiac Bali. In terms of the island's economy, tourism is the most important. Bali is one of the richest regions in Indonesia. For the past 20 or 30 years, the island has been turning to tourism, according to media such as <a href='https://web.archive.org/web/20080821140830/http://www.time.com/time/magazine/article/0,9171,393799,00.html'>Time Magazine.</a>",
+        "description": "The paradisiac Bali. In terms of the island's economy, tourism is the most important. Bali is one of the richest regions in Indonesia. For the past 20 or 30 years, the island has been turning to tourism, according to media such as <a target='_blank' href='https://web.archive.org/web/20080821140830/http://www.time.com/time/magazine/article/0,9171,393799,00.html'>Time Magazine.</a>",
         "main": "bali-v1.jpg",
         "complement_01": "bali-detail01.jpg",
         "complement_02": "bali-detail02.jpg",
@@ -48,7 +68,7 @@
         "date": "Nov. 2023",
         "theme": "white",
         "title": "Snowy Christmas",
-        "description": "I wrote a post at the end of 2023 while seeing a few snowflakes in NYC. On 2022 we barely saw snow in New York, so I was crossing fingers for a rare chance of a white Christmas. I collected data from the US National Ice Center <a href='https://usicecenter.gov/'>usicecenter.gov</a> to make the map below showing the extent of the snow. The purple spots are population density from the <a href='https://sedac.ciesin.columbia.edu/'>SEDAC</a>.",
+        "description": "I wrote a post at the end of 2023 while seeing a few snowflakes in NYC. On 2022 we barely saw snow in New York, so I was crossing fingers for a rare chance of a white Christmas. I collected data from the US National Ice Center <a target='_blank' href='https://usicecenter.gov/'>usicecenter.gov</a> to make the map below showing the extent of the snow. The purple spots are population density from the <a target='_blank' href='https://sedac.ciesin.columbia.edu/'>SEDAC</a>.",
         "main": "snowmap_nov30_2023.jpg",
         "complement_01": "snow2023-nov-1.gif",
         "complement_02": "",
@@ -81,6 +101,6 @@
         "complement_02": "sarapiqui_v1-crop02.jpg",
         "complement_03": "sarapiqui_v1-crop03.jpg",
         "complement_04": "sarapiqui_v1-crop04.jpg",
-        "closing": "Miles de personas las hemos usado por años para diversas aplicaciones. Lea más sobre el <a href='https://www2.jpl.nasa.gov/srtm'>SRTM aquí.</a>."
+        "closing": "Miles de personas las hemos usado por años para diversas aplicaciones. Lea más sobre el <a target='_blank' href='https://www2.jpl.nasa.gov/srtm'>SRTM aquí.</a>."
     }
 ]

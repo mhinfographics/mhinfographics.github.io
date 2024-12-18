@@ -1,12 +1,21 @@
 [
     {
+        "thumb": "nyt_122024_01.jpg",
+        "link": "https://www.nytimes.com/interactive/2024/12/18/us/tornadoes-2024.html?unlocked_article_code=1.iU4.f_N7.jL8xhzCwZbhB&smid=url-share",
+        "media": "The New York Times",
+        "month": "December",
+        "year": 2024,
+        "headline": "2024 Was the Most Intense Year for Tornadoes in a Decade",
+        "type": "latest",
+        "category":"Climate"
+    },{
         "thumb": "nyt_102024_01.jpg",
         "link": "https://nyti.ms/3A915AS",
         "media": "The New York Times",
         "month": "October",
         "year": 2024,
         "headline": "Can 70 Moms Save a Species?",
-        "type": "latest",
+        "type": "recent",
         "category":"Climate"
     },{
         "thumb": "nyt_092024_01.jpg",

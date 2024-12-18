@@ -31,7 +31,7 @@ function addPortfolioCards() {
             const container = document.getElementById('projects-container');
             container.appendChild(learnMore);
 
-            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Want to see more projects?</p><a href='arcade.html'>View Arcade</a>";
+            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Want to see more projects?</p><a href='arcade.html' target='_blank'>View Arcade</a>";
             learnMore.innerHTML = learnMoreCard;
         })
         .catch(error => console.error('Error fetching portfolio data:', error));
@@ -62,7 +62,7 @@ function addBlogCards() {
             const container = document.getElementById('blogs-container');
             container.appendChild(learnMore);
 
-            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Want to see more blog entries?</p><a href='https://mhinfographics.com/'>Visit mhinfographics.com</a>";
+            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Want to see more blog entries?</p><a href='https://mhinfographics.com/' target='_blank'>Visit mhinfographics.com</a>";
             learnMore.innerHTML = learnMoreCard;
         })
         .catch(error => console.error('Error fetching portfolio data:', error));
@@ -103,7 +103,7 @@ function addSketchCards() {
             const container = document.getElementById('sketch-container');
             container.appendChild(learnMore);
 
-            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Want to see more silly doodles?</p><a href='https://sundaysketchbook.art/'>Visit sundaysketchbook.art</a>";
+            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Want to see more silly doodles?</p><a href='https://sundaysketchbook.art/' target='_blank'>Visit sundaysketchbook.art</a>";
             learnMore.innerHTML = learnMoreCard;
         })
         .catch(error => console.error('Error fetching portfolio data:', error));
@@ -131,7 +131,7 @@ function addtalkCards() {
             const container = document.getElementById('talks-container');
             container.appendChild(learnMore);
 
-            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>All events as a speaker, interviews and exhibitions.</p><a href='https://mhinfographics.com/highlights/#:~:text=Infographics%2Ddataviz-,Talks,-%2C%20exhibitions%20and%20interviews'>Full list</a>";
+            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>All events as a speaker, interviews and exhibitions.</p><a href='https://mhinfographics.com/highlights/#:~:text=Infographics%2Ddataviz-,Talks,-%2C%20exhibitions%20and%20interviews' target='_blank'>Full list</a>";
             learnMore.innerHTML = learnMoreCard;
         })
         .catch(error => console.error('Error fetching portfolio data:', error));
@@ -205,7 +205,7 @@ function addAwardCards() {
             const container = document.getElementById('awards-container');
             container.appendChild(learnMore);
 
-            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Thanks to all the organizations that have recognized my work for so many years. For a complete list ,please </p><a href='https://mhinfographics.com/awards'>visit mhinfographics.com /awards</a>";
+            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Thanks to all the organizations that have recognized my work for so many years. For a complete list ,please </p><a href='https://mhinfographics.com/awards' target='_blank'>visit mhinfographics.com /awards</a>";
             learnMore.innerHTML = learnMoreCard;
         })
         .catch(error => console.error('Error fetching portfolio data:', error));

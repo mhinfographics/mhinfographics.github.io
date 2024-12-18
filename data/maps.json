@@ -1,35 +1,40 @@
 [
     {
-        "thumb": "maps_lantau.jpg",
-        "link": "maps.html#proj-id_m05",
+        "thumb": "maps_dissapointment.jpg",
+        "link": "maps.html#proj-id_m09",
         "category": "Blogging",
         "tag": "Maps for fun",
-        "headline": "Memories of Lantau Island, Hong Kong"
-    },{
+        "headline": "Dissapointment Island"
+    },
+    {
         "thumb": "maps_temperature.jpg",
         "link": "https://mhinfographics.com/2023/01/06/tutorial-visualizing-global-temperature-step-by-step/",
         "category": "Blogging",
         "tag": "Tutorial",
         "headline": "Visualizing global temperature step-by-step"
-    },{
+    },
+    {
         "thumb": "maps_snow.jpg",
         "link": "https://mhinfographics.com/#:~:text=%E2%80%93%E2%80%93%E2%80%93%E2%80%93%E2%80%93%E2%80%93%E2%80%93%20%3A%3A%3A%3A%20%F0%9F%97%93%EF%B8%8F%20%3A%3A%3A%3A%3A%20%E2%80%93%E2%80%93%E2%80%93%E2%80%93%E2%80%93%E2%80%93%E2%80%93-,December,-%3A%20A%20chance%20for",
         "category": "Blogging",
         "tag": "Maps for fun",
         "headline": "A chance for a snowy christmas."
-    },{
+    },
+    {
         "thumb": "maps_fires.jpg",
         "link": "https://mhinfographics.com/2022/07/04/visualizing-organic-carbon-in-near-real-time-a-step-by-step-guide/",
         "category": "Blogging",
         "tag": "Tutorial",
         "headline": "Visualizing organic carbon in near real time. –A step-by-step guide."
-    },{
+    },
+    {
         "thumb": "maps_eastcoast.jpg",
         "link": "https://www.nytimes.com/interactive/2024/02/13/climate/flooding-sea-levels-groundwater.html",
         "category": "Work",
         "tag": "The New York Times",
         "headline": "FEB. 2024: Land is sinking into the ocean off the east coast, exacerbating the dangers posed by rising sea levels. Excessive groundwater extraction is one of the culprits."
-    },{
+    },
+    {
         "thumb": "maps_donbas.jpg",
         "link": "https://www.nytimes.com/interactive/2023/02/10/world/europe/russia-ukraine-offensives-maps.html",
         "category": "Work",
