@@ -45,7 +45,7 @@ h2{
 #stories .story{margin-bottom: 50px;}
 #stories .story .wrapper{
     width: calc(100% - 30px);
-    max-width: 1200px;
+    max-width: 1000px;
     padding: 75px 25px;
     margin: 0px auto 10px auto;
     border-radius: 5px;
@@ -92,19 +92,19 @@ h2{
     color: var(--darkerColor);
 }
 #stories .story .wrapper .complements{
-    padding: 10px;
+    /* padding: 10px; */
     text-align: center;
 }
 #stories .story .wrapper .complements .complement{
     width: 100%;
-    max-width: 520px;
+    max-width: 460px;
     height: auto;
     display: inline-block;
 }
 #stories .story .wrapper .complements .featured{
     width: 100%;
     height: auto;
-    max-width: 1045px;
+    max-width: 1000px;
     margin: 30px auto 0 auto;
 }
 #moreStories{text-align: center;}
