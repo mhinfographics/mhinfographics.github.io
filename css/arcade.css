@@ -60,8 +60,9 @@ h2{
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 0.7;
-    background-blend-mode: soft-light;
-    background-color: #4a2e13;
+    background-blend-mode: difference;
+    background-color: #b65a00;
+    filter: sepia(1);
     border-radius: 5px;
     margin: -30px 0 0 -12.5%;
     border-bottom: 1px dashed var(--brickColor);
@@ -72,6 +73,7 @@ h2{
     left: 38px;
     opacity: 0;
     background-blend-mode: normal;
+    filter: sepia(0);
     width: 100%;
     transition: all 1s ease-out;
 }

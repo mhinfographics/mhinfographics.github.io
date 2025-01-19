@@ -30,11 +30,21 @@ window.onload = function () {
                     ${project.closing ? `<div class="text">
                         <p class="closing">${project.closing}</p>
                     </div>` : ''} 
-                    <div class="complements">    
+                    <div class="complements">
+                        ${project.kicker ? `<img class="featured" src="img/maps/${project.kicker}" alt="Map alternative">` : ''}
+                        ${project.kicker ? `<div class="text"><p class="closing">${project.kickertext}</p></div>` : ''}    
                         ${project.complement_01 ? `<img class="complement" src="img/maps/${project.complement_01}" alt="Map detail">` : ''}
                         ${project.complement_02 ? `<img class="complement" src="img/maps/${project.complement_02}" alt="Map detail">` : ''}
                         ${project.complement_03 ? `<img class="complement" src="img/maps/${project.complement_03}" alt="Map detail">` : ''}
                         ${project.complement_04 ? `<img class="complement" src="img/maps/${project.complement_04}" alt="Map detail">` : ''}
+                        ${project.complement_05 ? `<img class="complement" src="img/maps/${project.complement_05}" alt="Map detail">` : ''}
+                        ${project.complement_06 ? `<img class="complement" src="img/maps/${project.complement_06}" alt="Map detail">` : ''}
+                        ${project.complement_07 ? `<img class="complement" src="img/maps/${project.complement_07}" alt="Map detail">` : ''}
+                        ${project.complement_08 ? `<img class="complement" src="img/maps/${project.complement_08}" alt="Map detail">` : ''}
+                        ${project.complement_09 ? `<img class="complement" src="img/maps/${project.complement_09}" alt="Map detail">` : ''}
+                        ${project.complement_10 ? `<img class="complement" src="img/maps/${project.complement_10}" alt="Map detail">` : ''}
+                        ${project.complement_11 ? `<img class="complement" src="img/maps/${project.complement_11}" alt="Map detail">` : ''}
+                        ${project.complement_12 ? `<img class="complement" src="img/maps/${project.complement_12}" alt="Map detail">` : ''}
                         ${project.super ? `<img class="featured" src="img/maps/${project.super}" alt="Map alternative">` : ''}
                     </div>
                 </div>    

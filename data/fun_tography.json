@@ -1,13 +1,31 @@
 [
     {
+        "sequence": "m10",
+        "date": "Jan. 2025",
+        "theme": "transparent",
+        "title": "Air allies",
+        "description": "Last week was a busy week, with the Los Angeles fires ravaging multiple locations, leaving behind a trail of death and property damage. Our team at the Times has reconstructed the events that occurred during the first 24 hours, which you can read it for free at <a href='https://nyti.ms/3CgtLsA' target='_blank'>this link.</a> However, this is just a fraction of all the things we produced. Some things like the map below about the <a href='https://www.google.com/url?q=https://www.nytimes.com/2025/01/10/us/aircraft-collision-drone-palisades-fire.html' target='_blank'>drone incident that caused planes battling the fires to be grounded</a> were left out of coverage for editing reasons.<br>Since I had all these maps almost ready, I decided to reformulate them to bring them to this space.",
+        "main": "2025/flightsA600.jpg",
+        "complement_01": "2025/flightsJAN6.jpg",
+        "complement_02": "2025/flightsJAN7.jpg",
+        "complement_03": "2025/flightsJAN8.jpg",
+        "complement_04": "2025/flightsJAN9.jpg",
+        "complement_05": "2025/flightsJAN10.jpg",
+        "complement_06": "2025/flightsJAN11.jpg",
+        "complement_07": "2025/flightsJAN12.jpg",
+        "complement_08": "2025/flightsJAN6-14.jpg",
+        "kicker": "2025/laLoop.gif",
+        "kickertext": "And of course, some more maps from the same package visualizing aerial activity in the same style as the piece <a href='https://nyti.ms/3CgtLsA' target='_blank'>published by the New York Times.</a>",
+        "closing": "However, although it was an exhausting week for me, it does not compare to the intensity experienced by the firefighters and many other volunteers and officers in California. Just seeing the activity of the air support is incredible. Below some maps with data provided by flightradar24.com"
+    },{
         "sequence": "m09",
         "date": "Dec. 2024",
         "theme": "white",
         "title": "The land of Brits' disappointment",
         "description": "While surfing the web, I stumbled with this place called <a href='https://en.wikipedia.org/wiki/Disappointment_Island' target='_blank'>Disappointment Island</a>. At first glance, I thought wasn't real, but actually is a thing you can put type and find in <a href='https://maps.app.goo.gl/BPXJsQUBSw62seWSA' target='_blank'>google maps!</a><br> This tiny human-uninhabited island in the subantarctic Auckland Islands of New Zealand was just perfect for a hand-drawn map, I thought immediately.",
-        "main": "disappointment.jpg",
-        "complement_01": "disappointment-detail-01.jpg",
-        "complement_02": "disappointment-detail-02.jpg",
+        "main": "2024/disappointment.jpg",
+        "complement_01": "2024/disappointment-detail-01.jpg",
+        "complement_02": "2024/disappointment-detail-02.jpg",
         "closing": "If the images that came out of google are accurate, this place is not dissapointing at all, or at least not in the summer. Accoringly to Wiki, on 1907, the Dundoland shipwrecked near the west side of the island and the surviving crew was stranded there for seven months. However, its european name, ´Disappointment´ Wiki says, was given to it by another british sailor who was there conducting a survey of fur seals. –Spoiler– He didn't find any, so He named the island after the results of his expedition. –Dissapointing Island."
     },{
         "sequence": "m08",
@@ -15,9 +33,9 @@
         "theme": "white",
         "title": "Footprints of damage",
         "description": "This is more of an infofail than a fun map. In late 2024, I was doing research for a tornado piece I published in December, but some of the information we didn't use included building footprints from other extreme events that occurred during the year. You can read more about this fail on my graphics <a href='https://mhinfographics.com/2024/12/18/infofails-2024-mapping-destruction-across-the-u-s/' target='_blank'>blog here.</a>",
-        "main": "florida2024-buildings.jpg",
-        "complement_01": "florida2024-buildings-detail01.jpg",
-        "complement_02": "florida2024-buildings-detail02.jpg",
+        "main": "2024/florida2024-buildings.jpg",
+        "complement_01": "2024/florida2024-buildings-detail01.jpg",
+        "complement_02": "2024/florida2024-buildings-detail02.jpg",
         "closing": "These maps show clusters of buildings damaged by hurricanes Milton and Helene in 2024. Each red box is a 5 km cluster, the higher and more saturated the color, the more damaged buildings. Learn more about <a href='https://mhinfographics.com/2024/12/18/infofails-2024-mapping-destruction-across-the-u-s/' target='_blank'>this infofail here.</a>"
     },{
         "sequence": "m07",
@@ -25,10 +43,10 @@
         "theme": "transparent",
         "title": "Selenge Delta, Republic of Buryatia",
         "description": "The Selenge/Selenga River Delta, is one of the <a href='https://www.sciencedirect.com/science/article/abs/pii/S0048969723008616#:~:text=The%20first%2C%20the%20Selenga%20Delta,many%20of%20Baikal's%20endemic%20species.' target='_blank'>largest inland freshwater floodplains in the world.</a><br>There are amazing satellite images of this place, not much SAR data tho or at least not that I know of. The resolution of the data on these areas is actually low from Open Source data, and that's why I picked up this place to try a <a href='https://www.google.com/search?sca_esv=c6004f725def933e&rlz=1C5GCCM_en&sxsrf=ADLYWILikr3MybqOF9Po2d6bjaXn04xOvQ:1731601891780&q=voxel+art+map&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94oGSh4l60tfPppA0C5BN3Bom6kHGpJHn7EVuNALQGJ5ELjblSaUQRDzTIoRChFVih86lfg01TabqatiNk20mkNpY__RVoQeT3jGRgQ6KEn1g5qjbgicZddTtVrtQ07A8dVjf4r6IAy7fZotEXFJ9l3hDOjyig&sa=X&ved=2ahUKEwiGg5vdn9yJAxXCEVkFHTZTLn8QtKgLegQIFhAB&biw=1728&bih=958&dpr=2'>Voxcel Theme on it.</a>",
-        "main": "selenge.jpg",
-        "complement_01": "selenge-detail-03.jpg",
-        "complement_02": "selenge-detail-02.jpg",
-        "super": "selenge-detail-01.jpg",
+        "main": "2024/selenge.jpg",
+        "complement_01": "2024/selenge-detail-03.jpg",
+        "complement_02": "2024/selenge-detail-02.jpg",
+        "super": "2024/selenge-detail-01.jpg",
         "closing": "I think games and art are an awesome source of inspitarion for these type of maps. Not sure if I'll be ever able to publish for real a thing like this, but who knows... maybe I should give a try."
     },{
         "sequence": "m06",
@@ -36,11 +54,11 @@
         "theme": "transparent",
         "title": "Bali, Indonesia",
         "description": "The paradisiac Bali. In terms of the island's economy, tourism is the most important. Bali is one of the richest regions in Indonesia. For the past 20 or 30 years, the island has been turning to tourism, according to media such as <a target='_blank' href='https://web.archive.org/web/20080821140830/http://www.time.com/time/magazine/article/0,9171,393799,00.html'>Time Magazine.</a>",
-        "main": "bali-v1.jpg",
-        "complement_01": "bali-detail01.jpg",
-        "complement_02": "bali-detail02.jpg",
-        "complement_03": "bali-detail03.jpg",
-        "complement_04": "bali-detail04.jpg",
+        "main": "2024/bali-v1.jpg",
+        "complement_01": "2024/bali-detail01.jpg",
+        "complement_02": "2024/bali-detail02.jpg",
+        "complement_03": "2024/bali-detail03.jpg",
+        "complement_04": "2024/bali-detail04.jpg",
         "closing": "However, tourists have brought some development to the island, but as with other natural paradises, this comes at a price. <br><br> A few years ago I spent a few days between Denpasar and Nusa Dua, and I can attest to how wonderful this place is. Perhaps those of us who visit these natural paradises should be more aware of what our days of joy can represent for the locals."
     },{
         "sequence": "m05",
@@ -48,20 +66,20 @@
         "theme": "transparent",
         "title": "Lantau, Hong Kong",
         "description": "Some of the best years of my life were spent on this island. A combination of spectacular views from the many trails that run in every direction, wonderful beaches, beautiful cobbled squares, temples and so many other wonders. What a great few days we had on Lantau.",
-        "main": "lantau.jpg",
-        "complement_01": "lantau-detail-01.jpg",
-        "complement_02": "lantau-detail-02.jpg"
+        "main": "2024/lantau.jpg",
+        "complement_01": "2024/lantau-detail-01.jpg",
+        "complement_02": "2024/lantau-detail-02.jpg"
     },{
         "sequence": "m04",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Singapore",
         "description": "A few years ago, while working for Reuters, I lived for a few years on the warm and futuristic island of Singapore. I have very fond memories of that time: long walks along Marina Bay, the Gardens by the Bay, that place on Dempsey Hill where I used to take my family all the time, relaxing in the pool in my place in Clementi, or visiting Westgate and Jem, even the airport...",
-        "main": "singapore_v01.jpg",
-        "complement_01": "singapore_v01_d01.jpg",
-        "complement_02": "singapore_v01_d02.jpg",
-        "complement_03": "singapore_v01_d03.jpg",
-        "complement_04": "singapore_v01_d04.jpg",
+        "main": "2024/singapore_v01.jpg",
+        "complement_01": "2024/singapore_v01_d01.jpg",
+        "complement_02": "2024/singapore_v01_d02.jpg",
+        "complement_03": "2024/singapore_v01_d03.jpg",
+        "complement_04": "2024/singapore_v01_d04.jpg",
         "closing": "To my friends there, I hope you all are doing great, living the good life. You are always in my thoughts."
     },{
         "sequence": "m03",
@@ -69,11 +87,8 @@
         "theme": "white",
         "title": "Snowy Christmas",
         "description": "I wrote a post at the end of 2023 while seeing a few snowflakes in NYC. On 2022 we barely saw snow in New York, so I was crossing fingers for a rare chance of a white Christmas. I collected data from the US National Ice Center <a target='_blank' href='https://usicecenter.gov/'>usicecenter.gov</a> to make the map below showing the extent of the snow. The purple spots are population density from the <a target='_blank' href='https://sedac.ciesin.columbia.edu/'>SEDAC</a>.",
-        "main": "snowmap_nov30_2023.jpg",
-        "complement_01": "snow2023-nov-1.gif",
-        "complement_02": "",
-        "complement_03": "",
-        "complement_04": "",
+        "main": "2024/snowmap_nov30_2023.jpg",
+        "complement_01": "2024/snow2023-nov-1.gif",
         "closing": "There was no snow in NYC on Christmas, but I had a great time with my family tho."
     },
     {
@@ -82,12 +97,12 @@
         "title": "Santa María de Dota",
         "theme": "transparent",
         "description": "Santa María de Dota, mi pueblo natal, es un distrito de la provincia de San José, Costa Rica. Dota en general es conocida por su café y su clima fresco. He hecho varios mapas de mi pueblo por diversión, y este es uno de ellos. He añadido un par de detalles como mi casa resaltada sin ningún motivo, pero también recordar el lodo y los ríos que atraviesan el pueblo me traen muchos recuerdos de mis años en estos valles que se elevan a más de dos mil metros sobre el nivel del mar.",
-        "main": "dota_map_v1.jpg",
-        "complement_01": "dota_map_v1_d01.jpg",
-        "complement_02": "dota_map_v1_d02.jpg",
-        "complement_03": "dota_map_v2_01.jpg",
-        "complement_04": "dota_map_v2_02.jpg",
-        "super": "dota_map_v2.jpg",
+        "main": "2024/dota_map_v1.jpg",
+        "complement_01": "2024/dota_map_v1_d01.jpg",
+        "complement_02": "2024/dota_map_v1_d02.jpg",
+        "complement_03": "2024/dota_map_v2_01.jpg",
+        "complement_04": "2024/dota_map_v2_02.jpg",
+        "super": "2024/dota_map_v2.jpg",
         "closing": "Crecí entre cafetales, montañas y ríos. Y aunque ya hace muchos años que no vivo en Dota, siempre será mi hogar. Qué mejor manera de celebrar mis raíces que con un mapa de mi pueblo."
     },
     {
@@ -96,11 +111,11 @@
         "title": "Endeavour",
         "theme": "transparent",
         "description": "En Febrero del 2000, el sistema de radar abordo del transbordador Endeavour capturó datos para crear un modelo digital de las masas continentales de nuestro planeta. Los sets de datos se pusieron al alcance del publico en general 14 años después por orden de La Casa Blanca, aun hoy el SRTM-30 es una de las colecciones de información global más detalladas de libre acceso.",
-        "main": "raster3.jpg",
-        "complement_01": "sarapiqui_v1-crop01.jpg",
-        "complement_02": "sarapiqui_v1-crop02.jpg",
-        "complement_03": "sarapiqui_v1-crop03.jpg",
-        "complement_04": "sarapiqui_v1-crop04.jpg",
+        "main": "2024/raster3.jpg",
+        "complement_01": "2024/sarapiqui_v1-crop01.jpg",
+        "complement_02": "2024/sarapiqui_v1-crop02.jpg",
+        "complement_03": "2024/sarapiqui_v1-crop03.jpg",
+        "complement_04": "2024/sarapiqui_v1-crop04.jpg",
         "closing": "Miles de personas las hemos usado por años para diversas aplicaciones. Lea más sobre el <a target='_blank' href='https://www2.jpl.nasa.gov/srtm'>SRTM aquí.</a>."
     }
 ]

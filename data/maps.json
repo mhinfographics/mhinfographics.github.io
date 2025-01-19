@@ -1,5 +1,11 @@
 [
     {
+        "thumb": "maps_calfire2025.jpg",
+        "link": "maps.html#proj-id_m10",
+        "category": "Blogging",
+        "tag": "Maps for fun",
+        "headline": "Air allies: aerial response to the California wildfires of 2025."
+    },{
         "thumb": "maps_dissapointment.jpg",
         "link": "maps.html#proj-id_m09",
         "category": "Blogging",
@@ -32,7 +38,7 @@
         "link": "https://www.nytimes.com/interactive/2024/02/13/climate/flooding-sea-levels-groundwater.html",
         "category": "Work",
         "tag": "The New York Times",
-        "headline": "FEB. 2024: Land is sinking into the ocean off the east coast, exacerbating the dangers posed by rising sea levels. Excessive groundwater extraction is one of the culprits."
+        "headline": "FEB. 2024: Land is sinking into the ocean off the U.S. east coast."
     },
     {
         "thumb": "maps_donbas.jpg",

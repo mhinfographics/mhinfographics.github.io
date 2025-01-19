@@ -38,6 +38,7 @@ h3{
     background-repeat: no-repeat;
     position: relative;
     border-radius: 7px;
+    transition: background-image 2s ease-in-out;
 }
 #topper::after{
     content: ' ';
