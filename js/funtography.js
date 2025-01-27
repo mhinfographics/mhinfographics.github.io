@@ -4,7 +4,7 @@ window.onload = function () {
     let currentIndex = 0;
     let projects = [];
 
-    fetch('data/fun_tography.json')
+    fetch('data/funtography.json')
         .then(response => response.json())
         .then(data => {
             projects = data;

@@ -1,12 +1,13 @@
 // topper random selector 
-/*
-var randomTopper = Math.floor(Math.random() * 45);
+
+var toppersCount = 48;
+var randomTopper = Math.floor(Math.random() * toppersCount);
 document.querySelector('#topper').style.backgroundImage = 'url(./img/topper/topper_' + randomTopper + '.jpg)';
-*/
+
 
 
 // random topper image loader with animation
-
+/*
 function loadRandomTopper() {
     const topperElement = document.querySelector('#topper');
     let previousImageIndex = -1;
@@ -14,7 +15,7 @@ function loadRandomTopper() {
     function getRandomImageIndex() {
         let index;
         do {
-            index = Math.floor(Math.random() * 47);
+            index = Math.floor(Math.random() * 48);
         } while (index === previousImageIndex);
         previousImageIndex = index;
         return index;
@@ -48,9 +49,9 @@ function loadRandomTopper() {
             angle += 1;
             circle.setAttribute("stroke-dasharray", `${angle}, 283`);
             if (angle >= 360) {
+                loadImage();
                 clearInterval(interval);
                 topperElement.removeChild(svg);
-                loadImage();
                 createTimeoutCircle();
             }
         }, 20);
@@ -61,3 +62,4 @@ function loadRandomTopper() {
 }
 
 document.addEventListener('DOMContentLoaded', loadRandomTopper);
+*/
