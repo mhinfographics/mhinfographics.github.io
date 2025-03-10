@@ -1,121 +1,314 @@
 [
     {
-        "sequence": "m10",
+        "sequence": "11",
+        "date": "March 2025",
+        "theme": "white",
+        "title": "The Cityverse",
+        "description": "Like soap bubbles, the cities we live in are like micro-universes, self-contained units that somehow gather everything they need to function. I love how each of these mini-universes has its own identity. Every place I've been to has something unique, a particular way of doing things so to speak.<br>For this reason, I was thinking about visualizing different cities, some because I have them tattooed on my soul, others because they seem curious to me and they contrast with each other. To do this I have used data from Copernicus <a target='_blank' href='https://human-settlement.emergency.copernicus.eu/download.php?ds=builtH'>Global Human Settlement Layer</a> (GHSL) and Sentinel's <a target='_blank' href='https://livingatlas.arcgis.com/landcoverexplorer/#mapCenter=-84.06966%2C9.93036%2C11&mode=step&timeExtent=2017%2C2023&year=2023'>Land use classification.</a>Below you can see my hometown in its micro universe.<br>The brown markings are buildings in the central valley. The darker the markings, the taller the buildings according to the GHSL classification.",
+        "main": "2025/citiverses_sanjose_lookout.jpg",
+        "body_complment": [
+            {
+                "text_wide": "This particular city seems to have a lot of empty space, but the wide mountain ranges on the sides have shaped the city's expansion into this curious pattern, but there are also other things that make it unique, such as the amount of vegetation around it. See what the same place looks like by adding a layer of vegetation from Sentiel land use."
+            },
+            {
+                "image_large": "2025/citiverses_sanjose_multi.jpg"
+            },
+            {
+                "text_wide": "Following the same principle, I have applied the same process to create bubbles of a dozen cities. All with their own notable characteristics. Look below and think about the conclusions you can get from these spheres. For example, look at how little green area there is, with a few exceptions. Note that all the spheres you see here are at the <b>same scale of about 80 km<sup>2</sup>,</b> same as the first two you already saw above.<br>Denser cities, with large built-up areas look a bit darker, in some cases the water and bare land make for an interesting contrast... all fun to see."
+            },
+            {
+                "image_small": "2025/citiverses_group1_multi.jpg"
+            },
+            {
+                "image_small": "2025/citiverses_group2_multi.jpg"
+            },
+            {
+                "text_wide": "Although it is perhaps a little easier to see the contrast of the extension of the built areas and the heights of those blocks with a version like the first one you saw at the beginning of this post.<br> In my creative processes I always make many versions of the same thing, regardless of whether it is for my work, or as in this case, just for fun. Here they are again in that other format."
+            },
+            {
+                "image_small": "2025/citiverses_group1_lookout.jpg"
+            },
+            {
+                "image_small": "2025/citiverses_group2_lookout.jpg"
+            },
+            {
+                "text_wide": "There's something about renders that fascinates me, creating pieces in general excites me, but when I see the renders come to life... ugh, I think I'm enjoying this way too much! Here are some screenshots of what the radiance calculations that Cinema 4D does when you use Global Illumination look like."
+            },
+            {
+                "image_large": "2025/cities-radiance.gif"
+            },
+            {
+                "text_wide": "Speaking of processes, I aligned these pieces using QGIS to process the data, then I made a couple of rasters that I took to Cinema 4D and finally some labels in Adobe Illustrator. Below you have a render halfway through the process."
+            },
+            {
+                "image_large": "2025/cities-radiance-02.jpg"
+            },
+            {
+                "text_wide": "Of all the dozens of versions I've made and the 10 gigabytes of data I've used, there are a couple that I really love because of the patterns they follow. In some cases, the tallest buildings follow specific streets or financial districts, almost all of them have something like that, here there are some versions without land-use, just buildings without anything else."
+            },
+            {
+                "image_large": "2025/citiverses-red-mumbai.jpg"
+            },
+            {
+                "image_large": "2025/citiverses-red-tokyo.jpg"
+            },
+            {
+                "text_wide": "Or these other sets where the water flows over the city. Cool patterns I think can be accentuated with a little tweak in color."
+            },
+            {
+                "image_large": "2025/citiverses-blue-nyc.jpg"
+            },
+            {
+                "image_large": "2025/citiverses-blue-singapore.jpg"
+            },
+            {
+                "text_wide": "Here is a collection of those alternative versions in highg contrast reds and light blue waters:"
+            },
+            {
+                "image_large": "2025/citiverses.jpg"
+            },
+            {
+                "text_wide": "So, tell me, is your city here? In total I made about 80 renders for this handful of cities, maybe in the future I'll try something different with more... who knows where my obsession will take me."
+            }
+        ]
+    },
+    {
+        "sequence": "10",
         "date": "Jan. 2025",
         "theme": "transparent",
         "title": "Air allies",
         "description": "Last week was a busy week, with the Los Angeles fires ravaging multiple locations, leaving behind a trail of death and property damage. Our team at the Times has reconstructed the events that occurred during the first 24 hours, which you can read it for free at <a href='https://nyti.ms/3CgtLsA' target='_blank'>this link.</a> However, this is just a fraction of all the things we produced. Some things like the map below about the <a href='https://www.google.com/url?q=https://www.nytimes.com/2025/01/10/us/aircraft-collision-drone-palisades-fire.html' target='_blank'>drone incident that caused planes battling the fires to be grounded</a> were left out of coverage for editing reasons.<br>Since I had all these maps almost ready, I decided to reformulate them to bring them to this space.",
         "main": "2025/flightsA600.jpg",
-        "complement_01": "2025/flightsJAN6.jpg",
-        "complement_02": "2025/flightsJAN7.jpg",
-        "complement_03": "2025/flightsJAN8.jpg",
-        "complement_04": "2025/flightsJAN9.jpg",
-        "complement_05": "2025/flightsJAN10.jpg",
-        "complement_06": "2025/flightsJAN11.jpg",
-        "complement_07": "2025/flightsJAN12.jpg",
-        "complement_08": "2025/flightsJAN6-14.jpg",
-        "kicker": "2025/laLoop.gif",
-        "kickertext": "And of course, some more maps from the same package visualizing aerial activity in the same style as the piece <a href='https://nyti.ms/3CgtLsA' target='_blank'>published by the New York Times.</a>",
-        "closing": "However, although it was an exhausting week for me, it does not compare to the intensity experienced by the firefighters and many other volunteers and officers in California. Just seeing the activity of the air support is incredible. Below some maps with data provided by flightradar24.com"
-    },{
-        "sequence": "m09",
+        "body_complment": [
+            {
+                "text_wide": "However, although it was an exhausting week for me, it does not compare to the intensity experienced by the firefighters and many other volunteers and officers in California. Just seeing the activity of the air support is incredible. Below some maps with data provided by flightradar24.com"
+            },
+            {
+                "image_large": "2025/laLoop.gif"
+            },
+            {
+                "text_wide": "And of course, some more maps from the same package visualizing aerial activity in the same style as the piece <a href='https://nyti.ms/3CgtLsA' target='_blank'>published by the New York Times.</a>"
+            },
+            {
+                "image_small": "2025/flightsJAN6.jpg"
+            },
+            {
+                "image_small": "2025/flightsJAN7.jpg"
+            },
+            {
+                "image_small": "2025/flightsJAN8.jpg"
+            },
+            {
+                "image_small": "2025/flightsJAN9.jpg"
+            },
+            {
+                "image_small": "2025/flightsJAN10.jpg"
+            },
+            {
+                "image_small": "2025/flightsJAN11.jpg"
+            },
+            {
+                "image_small": "2025/flightsJAN12.jpg"
+            },
+            {
+                "image_small": "2025/flightsJAN6-14.jpg"
+            }
+        ]
+    },
+    {
+        "sequence": "09",
         "date": "Dec. 2024",
         "theme": "white",
         "title": "The land of Brits' disappointment",
         "description": "While surfing the web, I stumbled with this place called <a href='https://en.wikipedia.org/wiki/Disappointment_Island' target='_blank'>Disappointment Island</a>. At first glance, I thought wasn't real, but actually is a thing you can put type and find in <a href='https://maps.app.goo.gl/BPXJsQUBSw62seWSA' target='_blank'>google maps!</a><br> This tiny human-uninhabited island in the subantarctic Auckland Islands of New Zealand was just perfect for a hand-drawn map, I thought immediately.",
         "main": "2024/disappointment.jpg",
-        "complement_01": "2024/disappointment-detail-01.jpg",
-        "complement_02": "2024/disappointment-detail-02.jpg",
-        "closing": "If the images that came out of google are accurate, this place is not dissapointing at all, or at least not in the summer. Accoringly to Wiki, on 1907, the Dundoland shipwrecked near the west side of the island and the surviving crew was stranded there for seven months. However, its european name, ´Disappointment´ Wiki says, was given to it by another british sailor who was there conducting a survey of fur seals. –Spoiler– He didn't find any, so He named the island after the results of his expedition. –Dissapointing Island."
-    },{
-        "sequence": "m08",
+        "body_complment": [
+            {
+                "image_small": "2024/disappointment-detail-01.jpg"
+            },
+            {
+                "image_small": "2024/disappointment-detail-02.jpg"
+            },
+            {
+                "text_wide": "If the images that came out of google are accurate, this place is not dissapointing at all, or at least not in the summer. Accoringly to Wiki, on 1907, the Dundoland shipwrecked near the west side of the island and the surviving crew was stranded there for seven months. However, its european name, ´Disappointment´ Wiki says, was given to it by another british sailor who was there conducting a survey of fur seals. –Spoiler– He didn't find any, so He named the island after the results of his expedition. –Dissapointing Island."
+            }
+        ]
+    },
+    {
+        "sequence": "08",
         "date": "Dec. 2024",
         "theme": "white",
         "title": "Footprints of damage",
         "description": "This is more of an infofail than a fun map. In late 2024, I was doing research for a tornado piece I published in December, but some of the information we didn't use included building footprints from other extreme events that occurred during the year. You can read more about this fail on my graphics <a href='https://mhinfographics.com/2024/12/18/infofails-2024-mapping-destruction-across-the-u-s/' target='_blank'>blog here.</a>",
         "main": "2024/florida2024-buildings.jpg",
-        "complement_01": "2024/florida2024-buildings-detail01.jpg",
-        "complement_02": "2024/florida2024-buildings-detail02.jpg",
-        "closing": "These maps show clusters of buildings damaged by hurricanes Milton and Helene in 2024. Each red box is a 5 km cluster, the higher and more saturated the color, the more damaged buildings. Learn more about <a href='https://mhinfographics.com/2024/12/18/infofails-2024-mapping-destruction-across-the-u-s/' target='_blank'>this infofail here.</a>"
-    },{
-        "sequence": "m07",
+        "body_complment": [
+            {
+                "image_small": "2024/florida2024-buildings-detail01.jpg"
+            },
+            {
+                "image_small": "2024/florida2024-buildings-detail02.jpg"
+            },
+            {
+                "text_wide": "These maps show clusters of buildings damaged by hurricanes Milton and Helene in 2024. Each red box is a 5 km cluster, the higher and more saturated the color, the more damaged buildings. Learn more about <a href='https://mhinfographics.com/2024/12/18/infofails-2024-mapping-destruction-across-the-u-s/' target='_blank'>this infofail here.</a>"
+            }
+        ]
+    },
+    {
+        "sequence": "07",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Selenge Delta, Republic of Buryatia",
-        "description": "The Selenge/Selenga River Delta, is one of the <a href='https://www.sciencedirect.com/science/article/abs/pii/S0048969723008616#:~:text=The%20first%2C%20the%20Selenga%20Delta,many%20of%20Baikal's%20endemic%20species.' target='_blank'>largest inland freshwater floodplains in the world.</a><br>There are amazing satellite images of this place, not much SAR data tho or at least not that I know of. The resolution of the data on these areas is actually low from Open Source data, and that's why I picked up this place to try a <a href='https://www.google.com/search?sca_esv=c6004f725def933e&rlz=1C5GCCM_en&sxsrf=ADLYWILikr3MybqOF9Po2d6bjaXn04xOvQ:1731601891780&q=voxel+art+map&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94oGSh4l60tfPppA0C5BN3Bom6kHGpJHn7EVuNALQGJ5ELjblSaUQRDzTIoRChFVih86lfg01TabqatiNk20mkNpY__RVoQeT3jGRgQ6KEn1g5qjbgicZddTtVrtQ07A8dVjf4r6IAy7fZotEXFJ9l3hDOjyig&sa=X&ved=2ahUKEwiGg5vdn9yJAxXCEVkFHTZTLn8QtKgLegQIFhAB&biw=1728&bih=958&dpr=2'>Voxcel Theme on it.</a>",
+        "description": "The Selenge/Selenga River Delta, is one of the <a href='https://www.sciencedirect.com/science/article/abs/pii/S0048969723008616#:~:text=The%20first%2C%20the%20Selenga%20Delta,many%20of%20Baikal's%20endemic%20species.' target='_blank'>largest inland freshwater floodplains in the world.</a> There are amazing satellite images of this place, not much SAR data tho or at least not that I know of. The resolution of the data on these areas is actually low from Open Source data, and that's why I picked up this place to try a <a href='https://www.google.com/search?sca_esv=c6004f725def933e&rlz=1C5GCCM_en&sxsrf=ADLYWILikr3MybqOF9Po2d6bjaXn04xOvQ:1731601891780&q=voxel+art+map&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94oGSh4l60tfPppA0C5BN3Bom6kHGpJHn7EVuNALQGJ5ELjblSaUQRDzTIoRChFVih86lfg01TabqatiNk20mkNpY__RVoQeT3jGRgQ6KEn1g5qjbgicZddTtVrtQ07A8dVjf4r6IAy7fZotEXFJ9l3hDOjyig&sa=X&ved=2ahUKEwiGg5vdn9yJAxXCEVkFHTZTLn8QtKgLegQIFhAB&biw=1728&bih=958&dpr=2'>Voxcel Theme on it.</a>",
         "main": "2024/selenge.jpg",
-        "complement_01": "2024/selenge-detail-03.jpg",
-        "complement_02": "2024/selenge-detail-02.jpg",
-        "super": "2024/selenge-detail-01.jpg",
-        "closing": "I think games and art are an awesome source of inspitarion for these type of maps. Not sure if I'll be ever able to publish for real a thing like this, but who knows... maybe I should give a try."
-    },{
-        "sequence": "m06",
+        "body_complment": [
+            {
+                "image_small": "2024/selenge-detail-03.jpg"
+            },
+            {
+                "image_small": "2024/selenge-detail-02.jpg"
+            },
+            {
+                "text_wide": "I think games and art are an awesome source of inspitarion for these type of maps. Not sure if I'll be ever able to publish for real a thing like this, but who knows... maybe I should give a try."
+            },
+            {
+                "image_large": "2024/selenge-detail-01.jpg"
+            }
+        ]
+    },
+    {
+        "sequence": "06",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Bali, Indonesia",
         "description": "The paradisiac Bali. In terms of the island's economy, tourism is the most important. Bali is one of the richest regions in Indonesia. For the past 20 or 30 years, the island has been turning to tourism, according to media such as <a target='_blank' href='https://web.archive.org/web/20080821140830/http://www.time.com/time/magazine/article/0,9171,393799,00.html'>Time Magazine.</a>",
         "main": "2024/bali-v1.jpg",
-        "complement_01": "2024/bali-detail01.jpg",
-        "complement_02": "2024/bali-detail02.jpg",
-        "complement_03": "2024/bali-detail03.jpg",
-        "complement_04": "2024/bali-detail04.jpg",
-        "closing": "However, tourists have brought some development to the island, but as with other natural paradises, this comes at a price. <br><br> A few years ago I spent a few days between Denpasar and Nusa Dua, and I can attest to how wonderful this place is. Perhaps those of us who visit these natural paradises should be more aware of what our days of joy can represent for the locals."
-    },{
-        "sequence": "m05",
+        "body_complment": [            
+            {
+                "text_wide": "However, tourists have brought some development to the island, but as with other natural paradises, this comes at a price. <br><br> A few years ago I spent a few days between Denpasar and Nusa Dua, and I can attest to how wonderful this place is. Perhaps those of us who visit these natural paradises should be more aware of what our days of joy can represent for the locals."
+            },
+            {
+                "image_small": "2024/bali-detail01.jpg"
+            },
+            {
+                "image_small": "2024/bali-detail02.jpg"
+            },
+            {
+                "image_small": "2024/bali-detail03.jpg"
+            },
+            {
+                "image_small": "2024/bali-detail04.jpg"
+            }
+        ]
+    },
+    {
+        "sequence": "05",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Lantau, Hong Kong",
         "description": "Some of the best years of my life were spent on this island. A combination of spectacular views from the many trails that run in every direction, wonderful beaches, beautiful cobbled squares, temples and so many other wonders. What a great few days we had on Lantau.",
         "main": "2024/lantau.jpg",
-        "complement_01": "2024/lantau-detail-01.jpg",
-        "complement_02": "2024/lantau-detail-02.jpg"
-    },{
-        "sequence": "m04",
+        "body_complment": [
+            {
+                "image_small": "2024/lantau-detail-01.jpg"
+            },
+            {
+                "image_small": "2024/lantau-detail-02.jpg"
+            }
+        ]
+    },
+    {
+        "sequence": "04",
         "date": "Nov. 2024",
         "theme": "transparent",
         "title": "Singapore",
         "description": "A few years ago, while working for Reuters, I lived for a few years on the warm and futuristic island of Singapore. I have very fond memories of that time: long walks along Marina Bay, the Gardens by the Bay, that place on Dempsey Hill where I used to take my family all the time, relaxing in the pool in my place in Clementi, or visiting Westgate and Jem, even the airport...",
         "main": "2024/singapore_v01.jpg",
-        "complement_01": "2024/singapore_v01_d01.jpg",
-        "complement_02": "2024/singapore_v01_d02.jpg",
-        "complement_03": "2024/singapore_v01_d03.jpg",
-        "complement_04": "2024/singapore_v01_d04.jpg",
-        "closing": "To my friends there, I hope you all are doing great, living the good life. You are always in my thoughts."
-    },{
-        "sequence": "m03",
+        "body_complment": [
+           
+            {
+                "text_wide": "To my friends there, I hope you all are doing great, living the good life. You are always in my thoughts."
+            },
+            {
+                "image_small": "2024/singapore_v01_d01.jpg"
+            },
+            {
+                "image_small": "2024/singapore_v01_d02.jpg"
+            },
+            {
+                "image_small": "2024/singapore_v01_d03.jpg"
+            },
+            {
+                "image_small": "2024/singapore_v01_d04.jpg"
+            }
+        ]
+    },
+    {
+        "sequence": "03",
         "date": "Nov. 2023",
         "theme": "white",
         "title": "Snowy Christmas",
         "description": "I wrote a post at the end of 2023 while seeing a few snowflakes in NYC. On 2022 we barely saw snow in New York, so I was crossing fingers for a rare chance of a white Christmas. I collected data from the US National Ice Center <a target='_blank' href='https://usicecenter.gov/'>usicecenter.gov</a> to make the map below showing the extent of the snow. The purple spots are population density from the <a target='_blank' href='https://sedac.ciesin.columbia.edu/'>SEDAC</a>.",
         "main": "2024/snowmap_nov30_2023.jpg",
-        "complement_01": "2024/snow2023-nov-1.gif",
-        "closing": "There was no snow in NYC on Christmas, but I had a great time with my family tho."
+        "body_complment": [
+            {
+                "text_wide": "There was no snow in NYC on Christmas, but I had a great time with my family tho."
+            },
+            {
+                "image_small": "2024/snow2023-nov-1.gif"
+            }
+        ]
     },
     {
-        "sequence": "m02",
+        "sequence": "02",
         "date": "Feb 2022",
         "title": "Santa María de Dota",
         "theme": "transparent",
         "description": "Santa María de Dota, mi pueblo natal, es un distrito de la provincia de San José, Costa Rica. Dota en general es conocida por su café y su clima fresco. He hecho varios mapas de mi pueblo por diversión, y este es uno de ellos. He añadido un par de detalles como mi casa resaltada sin ningún motivo, pero también recordar el lodo y los ríos que atraviesan el pueblo me traen muchos recuerdos de mis años en estos valles que se elevan a más de dos mil metros sobre el nivel del mar.",
         "main": "2024/dota_map_v1.jpg",
-        "complement_01": "2024/dota_map_v1_d01.jpg",
-        "complement_02": "2024/dota_map_v1_d02.jpg",
-        "complement_03": "2024/dota_map_v2_01.jpg",
-        "complement_04": "2024/dota_map_v2_02.jpg",
-        "super": "2024/dota_map_v2.jpg",
-        "closing": "Crecí entre cafetales, montañas y ríos. Y aunque ya hace muchos años que no vivo en Dota, siempre será mi hogar. Qué mejor manera de celebrar mis raíces que con un mapa de mi pueblo."
+        "body_complment": [            
+            {
+                "text_wide": "Crecí entre cafetales, montañas y ríos. Y aunque ya hace muchos años que no vivo en Dota, siempre será mi hogar. Qué mejor manera de celebrar mis raíces que con un mapa de mi pueblo."
+            },
+            {
+                "image_small": "2024/dota_map_v1_d01.jpg"
+            },
+            {
+                "image_small": "2024/dota_map_v1_d02.jpg"
+            },
+            {
+                "image_small": "2024/dota_map_v2_01.jpg"
+            },
+            {
+                "image_small": "2024/dota_map_v2_02.jpg"
+            },
+            {
+                "image_large": "2024/dota_map_v2.jpg"
+            }
+        ]
     },
     {
-        "sequence": "m01",
+        "sequence": "01",
         "date": "May 2021",
         "title": "Endeavour",
         "theme": "transparent",
         "description": "En Febrero del 2000, el sistema de radar abordo del transbordador Endeavour capturó datos para crear un modelo digital de las masas continentales de nuestro planeta. Los sets de datos se pusieron al alcance del publico en general 14 años después por orden de La Casa Blanca, aun hoy el SRTM-30 es una de las colecciones de información global más detalladas de libre acceso.",
         "main": "2024/raster3.jpg",
-        "complement_01": "2024/sarapiqui_v1-crop01.jpg",
-        "complement_02": "2024/sarapiqui_v1-crop02.jpg",
-        "complement_03": "2024/sarapiqui_v1-crop03.jpg",
-        "complement_04": "2024/sarapiqui_v1-crop04.jpg",
-        "closing": "Miles de personas las hemos usado por años para diversas aplicaciones. Lea más sobre el <a target='_blank' href='https://www2.jpl.nasa.gov/srtm'>SRTM aquí.</a>."
+        "body_complment": [
+            {
+                "text_wide": "Miles de personas las hemos usado por años para diversas aplicaciones. Lea más sobre el <a target='_blank' href='https://www2.jpl.nasa.gov/srtm'>SRTM aquí.</a>."
+            },
+            {
+                "image_small": "2024/sarapiqui_v1-crop01.jpg"
+            },
+            {
+                "image_small": "2024/sarapiqui_v1-crop02.jpg"
+            },
+            {
+                "image_small": "2024/sarapiqui_v1-crop03.jpg"
+            },
+            {
+                "image_small": "2024/sarapiqui_v1-crop04.jpg"
+            }
+        ]
     }
 ]

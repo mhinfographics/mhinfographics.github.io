@@ -30,9 +30,10 @@
     padding-top: 60px;
 }
 .cards_grid .card.title h2{
-    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Cormorant Garamond", serif; */
+    font-family: "Lavishly Yours", cursive;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 3rem;
     /* font-style: italic; */
     color: var(--darkerColor);
     margin: 30px 0 0 0;
@@ -116,13 +117,16 @@
 }
 .cards_grid .card.learn-more .row-icon{
     width: 60%;
-    margin-top: 80px;
+    margin-top: 40px;
 }
 
 #arcade-container h2{
-    font-family: "Cormorant Garamond", serif;
+    /* font-family: "Cormorant Garamond", serif; */
+    font-family: "Lavishly Yours", cursive;
     font-weight: 900;
-    color: black;
+    color: var(--darkerColor);
+    font-size: 2.4rem;
+    line-height: 0;
 }
 #arcade-container a{
     text-align: unset;

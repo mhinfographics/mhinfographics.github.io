@@ -21,37 +21,37 @@ window.onload = function () {
             card.className = `story ${project.theme}`;
             card.innerHTML = `
                 <div class="wrapper" id="proj-id_${project.sequence}">
+                    <div class="counter"><p>Funtography&ensp;<span>–Nº${project.sequence}</span></p></div>
                     <div class="text">
                         <p class="date">${project.date}</p>
                         <h3>${project.title}</h3>
                         <p class="desc">${project.description}</p>
                     </div>
-                    <img class="featured" src="img/maps/${project.main}" alt="${project.title}">
-                    ${project.closing ? `<div class="text">
-                        <p class="closing">${project.closing}</p>
-                    </div>` : ''} 
-                    <div class="complements">
-                        ${project.kicker ? `<img class="featured" src="img/maps/${project.kicker}" alt="Map alternative">` : ''}
-                        ${project.kicker ? `<div class="text"><p class="closing">${project.kickertext}</p></div>` : ''}    
-                        ${project.complement_01 ? `<img class="complement" src="img/maps/${project.complement_01}" alt="Map detail">` : ''}
-                        ${project.complement_02 ? `<img class="complement" src="img/maps/${project.complement_02}" alt="Map detail">` : ''}
-                        ${project.complement_03 ? `<img class="complement" src="img/maps/${project.complement_03}" alt="Map detail">` : ''}
-                        ${project.complement_04 ? `<img class="complement" src="img/maps/${project.complement_04}" alt="Map detail">` : ''}
-                        ${project.complement_05 ? `<img class="complement" src="img/maps/${project.complement_05}" alt="Map detail">` : ''}
-                        ${project.complement_06 ? `<img class="complement" src="img/maps/${project.complement_06}" alt="Map detail">` : ''}
-                        ${project.complement_07 ? `<img class="complement" src="img/maps/${project.complement_07}" alt="Map detail">` : ''}
-                        ${project.complement_08 ? `<img class="complement" src="img/maps/${project.complement_08}" alt="Map detail">` : ''}
-                        ${project.complement_09 ? `<img class="complement" src="img/maps/${project.complement_09}" alt="Map detail">` : ''}
-                        ${project.complement_10 ? `<img class="complement" src="img/maps/${project.complement_10}" alt="Map detail">` : ''}
-                        ${project.complement_11 ? `<img class="complement" src="img/maps/${project.complement_11}" alt="Map detail">` : ''}
-                        ${project.complement_12 ? `<img class="complement" src="img/maps/${project.complement_12}" alt="Map detail">` : ''}
-                        ${project.super ? `<img class="featured" src="img/maps/${project.super}" alt="Map alternative">` : ''}
-                    </div>
+                    ${project.main ? `<img class="featured" src="img/maps/${project.main}" alt="${project.title}">` : ''}
+                    ${project.body_complment ? `<div class="complements">${generateBodyComplement(project.body_complment)}</div>` : ''}
                 </div>    
             `;
             container.appendChild(card);
             currentIndex++;
         }
+    }
+
+    function generateBodyComplement(bodyComplement) {
+        if (!bodyComplement) return '';
+    
+        let content = '';
+        bodyComplement.forEach(item => {
+            const key = Object.keys(item)[0];
+            const value = item[key];
+            if (key === 'image_small') {
+                content += `<img src="img/maps/${value}" class="complement" />`;
+            } else if (key === 'image_large') {
+                content += `<img src="img/maps/${value}" class="featured" />`;
+            } else if (key === 'text_wide') {
+                content += `<div class="text"><p>${value}</p></div>`;
+            }
+        });
+        return content;
     }
 
     function displayInitialCards() {
@@ -75,7 +75,8 @@ window.onload = function () {
         container.appendChild(button);
     }
 };
-function menuCheck(){
+
+function menuCheck() {
     document.querySelectorAll('.btn_maps').forEach(button => {
         button.setAttribute('disabled', 'true');
         button.classList.add('disabled');
