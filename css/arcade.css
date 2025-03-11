@@ -113,6 +113,7 @@ h2{
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 #arcade-cont .project-card .tags h4{
     text-transform: capitalize;
@@ -168,9 +169,10 @@ h2{
 }
 
 @media screen and (max-width: 600px) {
+    img.section-icon{display: none;}
     h2{
         text-align: left;
         padding-left: 20px;
-        font-size: 2rem;
+        font-size: 3.2rem;
     } 
 }
