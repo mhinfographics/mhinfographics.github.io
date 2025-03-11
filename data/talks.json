@@ -1,6 +1,16 @@
 [
     {
         "thumb": "speak_noimage.jpg",
+        "category": "Boston",
+        "tag": "March 2025",
+        "headline": "Guest speaker at the Center for Design of the College of Arts, Media and Design at Northeastern University"
+    },{
+        "thumb": "speak_noimage.jpg",
+        "category": "Hong Kong",
+        "tag": "March 2025",
+        "headline": "Guest speaker to a class of the School of Design of the Hong Kong Polytechnic University"
+    },{
+        "thumb": "speak_noimage.jpg",
         "category": "New York",
         "tag": "December 2024",
         "headline": "Guest speaker to the Craig Newmark Graduate School of Journalism at the City University of New York"
