@@ -1,12 +1,21 @@
 [
     {
+        "thumb": "nyt_032025_01.jpg",
+        "link": "https://www.nytimes.com/interactive/2025/03/16/technology/ai-data-centers.html",
+        "media": "The New York Times",
+        "month": "March",
+        "year": 2025,
+        "headline": "How A.I. Is Changing the Way the World Builds Computers",
+        "type": "latest",
+        "category":"Technology"
+    },{
         "thumb": "nyt_012025_01.jpg",
         "link": "https://www.nytimes.com/interactive/2025/01/18/us/los-angeles-fires-palisades-eaton-timeline.html?unlocked_article_code=1.qE4.zM5t.OpBcN96768MX&smid=url-share",
         "media": "The New York Times",
         "month": "January",
         "year": 2025,
         "headline": "The 24 Hours When L.A. Went Up in Flames",
-        "type": "latest",
+        "type": "recent",
         "category":"Breaking News"
     },{
         "thumb": "nyt_122024_01.jpg",
@@ -17,43 +26,5 @@
         "headline": "2024 Was the Most Intense Year for Tornadoes in a Decade",
         "type": "recent",
         "category":"Climate"
-    },{
-        "thumb": "nyt_102024_01.jpg",
-        "link": "https://nyti.ms/3A915AS",
-        "media": "The New York Times",
-        "month": "October",
-        "year": 2024,
-        "headline": "Can 70 Moms Save a Species?",
-        "type": "recent",
-        "category":"Climate"
-    },{
-        "thumb": "nyt_092024_01.jpg",
-        "link": "https://nyti.ms/3TOXFcY",
-        "media": "The New York Times",
-        "month": "September",
-        "year": 2024,
-        "headline": "Trump Wants to Jail His Political Adversaries. Here’s How He Could Do It",
-        "type": "recent",
-        "category":"Politics"
-    },
-    {
-        "thumb": "nyt_082024_01.jpg",
-        "link": "https://www.nytimes.com/interactive/2024/08/22/us/politics/dnc-quotes-conversation.html",
-        "media": "The New York Times",
-        "month": "August",
-        "year": 2024,
-        "headline": "20 Things Seen and Heard at the Convention",
-        "type": "recent",
-        "category":"Politics"
-    },
-    {
-        "thumb": "nyt_072024_01.jpg",
-        "link": "https://www.nytimes.com/interactive/2024/07/17/us/politics/rnc-quotes-scenes.html",
-        "media": "The New York Times",
-        "month": "July",
-        "year": 2024,
-        "headline": "What We Heard at the RNC in 20 Off-Stage Scenes",
-        "type": "recent",
-        "category":"Politics"
     }
 ]
