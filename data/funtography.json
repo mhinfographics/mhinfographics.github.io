@@ -1,5 +1,26 @@
 [
     {
+        "sequence": "12",
+        "date": "May 2025",
+        "theme": "white",
+        "title": "The Kerguelen Islands",
+        "description": "If you're ever looking to escape from someone, this place could be a good option. This archipelago is one of the most isolated places in the world; the nearest inhabited place is the island of Madagascar, in the eastern side of the African coast, but it's located more than 3,300 km away. <br> These islands are French territory and their motto is 'Liberty, equality, fraternity.' It's great to know that their inhabitants are fraternal because once you arrive there, it's not easy to leave.",
+        "main": "2025/kerguelenzoom_100.jpg",
+        "body_complment": [
+            {
+                "text_wide": "<a href='https://www.wikiwand.com/en/articles/Kerguelen_Islands' target='_blank'>According to Wikipedia</a>, the islands were officially discovered by the French navigator Yves-Joseph de Kerguelen-Trémarec on 12 February 1772. The next day, Charles de Boisguehenneuc landed and claimed the island for the French crown. Here you have a couple of enlarged areas of this peculiar place."
+            },
+            {
+                "image_small": "2025/kerguelenzoom_75.jpg"
+            },
+            {
+                "image_small": "2025/kerguelenzoom_50.jpg"
+            },
+            {
+                "image_small": "2025/kerguelenzoom_25.jpg"
+            }
+        ]
+    },{
         "sequence": "11",
         "date": "March 2025",
         "theme": "white",
