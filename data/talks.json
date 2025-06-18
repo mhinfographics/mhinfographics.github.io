@@ -1,9 +1,24 @@
 [
     {
         "thumb": "speak_noimage.jpg",
+        "category": "Miami",
+        "tag": "June 2025",
+        "headline": "Speaker to the Outlier conference at Miami University"
+    },{
+        "thumb": "speak_noimage.jpg",
+        "category": "Hong Kong",
+        "tag": "March 2025",
+        "headline": "Guest speaker to a class of design of the Polytechnic University of Hong Kong"
+    },{
+        "thumb": "speak_noimage.jpg",
         "category": "Boston",
         "tag": "March 2025",
         "headline": "Guest speaker at the Center for Design of the College of Arts, Media and Design at Northeastern University"
+    },{
+        "thumb": "speak_noimage.jpg",
+        "category": "Argentina",
+        "tag": "May 2025",
+        "headline": "Guest speaker to a class of design of Belgrano University"
     },{
         "thumb": "speak_noimage.jpg",
         "category": "Hong Kong",
