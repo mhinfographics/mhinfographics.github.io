@@ -1,3 +1,10 @@
+h3{
+    font-family: "Cormorant Garamond", serif;
+    font-size: 1.8em;
+    color: var(--darkerColor);
+    text-align: center;
+    margin: 0 auto 20px auto;
+}
 p.desc{
     max-width: 580px;
     margin: 0 auto;
@@ -16,7 +23,27 @@ p.desc{
     flex-wrap: wrap;
     align-content: center;
 }
-
+.visual{
+    margin: 0 auto 2rem auto;
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+.visual.size-1200{
+    max-width: 1200px;
+}
+.visual.size-620{
+    max-width: 620px;
+}
+.visual img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.visual.blending img{
+    mix-blend-mode: multiply;
+}
 #slot_machines .slot_machine {
     width: 100%;
     max-width: 320px;
@@ -63,4 +90,22 @@ p.desc{
 
 #slot_machines .slot_machine .counter p {
     margin: 0;
+}
+.btn_flat{
+    text-align: center;
+    padding-top: 35px;
+    font-family: "Roboto", serif;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    margin: 0 auto;
+    color: var(--brickColor);
+    padding: 15px 50px;
+    width: 100%;
+    max-width: 300px;
+    cursor: pointer;
+    background-color: var(--softColor);
+    border-radius: 5px;
+    border: none;
 }
