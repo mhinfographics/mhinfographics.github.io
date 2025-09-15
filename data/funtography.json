@@ -1,5 +1,32 @@
 [
     {
+        "sequence": "13",
+        "date": "Sept. 2025",
+        "theme": "white",
+        "title": "Happy Birthday Costa Rica!",
+        "description": "This year Costa Rica turns 204 years of independence. My country is a little piece of land of about 51,100 square kilometers. However the seas sorounding it, make it a bit larger, about 589,600 square kilometers of maritime territory. That's about 11.5 times the size of the land area. <br> While browsing around, I came across <a href='https://serc.carleton.edu/details/images/12596.html' target='_blank'>this map</a> showing tectonic plates and elevation profiles, and I thought it would be fun to make a 'terraced' version... so, here it is.",
+        "main": "2025/crc-204-terrain.jpg",
+        "body_complment": [
+            {
+                "text_wide": "There has always been a great appreciation for nature conservation in Costa Rica, in fact, the country <a href='https://www.conservation.org/blog/in-historic-move-costa-rica-makes-big-splash-for-conservation' target='_blank'>expanded the protected areas</a> around the Cocos Island a few years ago. The move aims to protect this crucial corridor for many species in this region of the Pacific Ocean."
+            },
+            {
+                "image_small": "2025/crc-204-terrain-detail-01.jpg"
+            },
+            {
+                "image_small": "2025/crc-204-terrain-detail-02.jpg"
+            },
+            {
+                "text_wide": "If you're curious about the source of the information, I got the contour profiles from <a href='https://contours.axismaps.com/#6/9.041/-87.465' target='_blank'>Axismaps,</a> and the rest is just <a href='http://www.naturalearthdata.com/features/' target='_blank'>Natural Earth</a> and the original map I described above. I used QGIS to generate the base map, Blender to render the terrain and Adibe Illustrator for labels. Thanks for visiting my blog, and happy birthday, Costa Rica!."
+            },
+            {
+                "image_small": "2025/crc-204-terrain-detail-03.jpg"
+            },
+            {
+                "image_small": "2025/crc-204-terrain-detail-04.jpg"
+            }
+        ]
+    },{
         "sequence": "12",
         "date": "May 2025",
         "theme": "white",
