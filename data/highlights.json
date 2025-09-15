@@ -1,12 +1,21 @@
 [
     {
+        "thumb": "nyt_092025_01.jpg",
+        "link": "https://www.nytimes.com/interactive/2025/09/08/world/europe/ukraine-russia-war-drones-tanks-military.html",
+        "media": "The New York Times",
+        "month": "September",
+        "year": 2025,
+        "headline": "Tanks Were Just Tanks, Until Drones Made Them Change",
+        "type": "latest",
+        "category":"International"
+    },{
         "thumb": "nyt_032025_01.jpg",
         "link": "https://www.nytimes.com/interactive/2025/03/16/technology/ai-data-centers.html",
         "media": "The New York Times",
         "month": "March",
         "year": 2025,
         "headline": "How A.I. Is Changing the Way the World Builds Computers",
-        "type": "latest",
+        "type": "recent",
         "category":"Technology"
     },{
         "thumb": "nyt_012025_01.jpg",
