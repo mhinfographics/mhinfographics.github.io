@@ -1,9 +1,8 @@
 <img src="https://mhinfographics.github.io/img/svg/svg_m-01.svg" width="80%">
 <h1>Hi there!</h1>
 Thanks for stopping by my website repo. 
-I'm a graphics editor for The New York Times and I push some stuff I dod here.<br>
-There's nothing fancy here, just some javascript and json files along with a bunch of images. 
-If you are looking for my <i>Human-friendly</i> website, you should go to <a href="https://mhinfographics.github.io/">mhinfographics.github.io</a><br>
+I'm a graphics editor for The New York Times and this is a personal website where I push a mix of personal projects and my protfolio.<br>
+There's nothing fancy here, just some javascript and json files along with a bunch of images. If you are looking for my <i>Human-friendly</i> website, you should go to <a href="https://mhinfographics.github.io/">mhinfographics.github.io</a><br>
 <br>
 <br>
 <br>
