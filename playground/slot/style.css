@@ -3,7 +3,7 @@ h3{
     font-size: 1.8em;
     color: var(--darkerColor);
     text-align: center;
-    margin: 0 auto 20px auto;
+    margin: 4rem auto 2rem auto;
 }
 p.desc{
     max-width: 580px;
@@ -11,6 +11,8 @@ p.desc{
     width: calc(100% - 26px);
     padding: 0 15px 30px 15px;
     text-wrap: auto;
+    font-size: 20px;
+    line-height: 1.6;
 }
 #slot_machines {
     width: 100%;
@@ -34,6 +36,9 @@ p.desc{
 }
 .visual.size-620{
     max-width: 620px;
+}
+.visual.size-320{
+    max-width: 320px;
 }
 .visual img{
     width: 100%;
@@ -108,4 +113,48 @@ p.desc{
     background-color: var(--softColor);
     border-radius: 5px;
     border: none;
+}
+#custom_bug{
+    text-align: center;
+}
+#custom_bug .bug{
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: -11px;
+}
+#custom_bug h4{
+    margin: 0 auto;
+    text-align: center;
+}
+#custom_bug p{
+    margin: 5px auto 15px auto;
+    text-align: center;
+    font-size: 1em;
+    width: 200px;
+    line-height: 1;
+}
+#custom_bug .bug-size{
+    font-size: large;
+    color: var(--darkerColor);
+    text-decoration: underline;
+    font-style: italic;
+}
+#custom_bug .bugName{
+    font-weight: bold;
+    font-style: italic;
+    color: var(--darkerColor);
+}
+#custom_bug img.blend01{
+    mix-blend-mode: difference;
+}
+#custom_bug img.blend02{
+    mix-blend-mode: luminosity;
+}
+#custom_bug img.blend03{
+    mix-blend-mode: color-burn;
+}
+#custom_bug img.blend04{
+    mix-blend-mode: normal;
 }
