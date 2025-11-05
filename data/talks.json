@@ -1,6 +1,16 @@
 [
     {
         "thumb": "speak_noimage.jpg",
+        "category": "New York",
+        "tag": "October 2025",
+        "headline": "Guest speaker to the dataviz class of the Cooper Union for the Advancement of Science and Art."
+    },{
+        "thumb": "speak_noimage.jpg",
+        "category": "Lima, Peru",
+        "tag": "October 2025",
+        "headline": "Virtual guest speaker to ‘Semana del Diseño: UPC (Universidad Peruana de Ciencias Aplicadas)."
+    },{
+        "thumb": "speak_noimage.jpg",
         "category": "Miami",
         "tag": "June 2025",
         "headline": "Speaker to the Outlier conference at Miami University"
