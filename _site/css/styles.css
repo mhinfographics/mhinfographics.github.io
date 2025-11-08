@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lavishly+Yours&family=Roboto:wght@600&display=swap');
+:root{
+    --bgColor: #f3f4ef;
+    --darkColor: #7a724c;
+    --darkerColor: #5c5547;
+    --brickColor: #943c13;
+    --softColor: #7a724c42;
+    --softerColor: #7a724c15;
+}
+body{
+    background-color: #f3f4ef;
+}
+h1{
+    font-family: "Roboto", serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.5rem;
+    color: #000;
+    margin: 0 auto;
+    width: fit-content;
+}
+h3{
+    color: var(--darkerColor);
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+#topper{
+    margin: 1% auto 20px auto;
+    width: 127px;
+    height: 226px;
+    position: relative;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    border-radius: 7px;
+    transition: background-image 2s ease-in-out;
+}
+#topper::after{
+    content: ' ';
+    position: absolute;
+    width: 118px;
+    height: 216px;
+    border-radius: 7px;
+    border: 1px white solid;
+    top: 4px;
+    left: 4px;
+}
+p,a{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--darkerColor);
+}
+.cards_grid a{
+    text-decoration: none;
+    color: var(--brickColor);
+    position: relative;
+    font-size: 13px;
+}
+/*
+.cards_grid a::after{
+    position: absolute;
+    content: ' ';
+    display: block;
+    width: 25%;
+    height: 1px;
+    background: var(--brickColor);
+    bottom: -6px;
+    left: 0;
+    opacity: 0.8;
+    transition: all 0.3s ease-out;
+}
+.cards_grid a:hover::after{
+    width: 100%;
+}
+*/
+img{
+    font-size: 8px;
+}
+header{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+header .section-icon{
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto 15px auto;
+    position: relative;
+}
+footer{
+    text-align: center;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.section-icon{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 170px;
+}
+div.section-icon img{
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    margin: 45px auto 0 auto;
+}
+footer{
+    margin-top: 50px;
+    padding: 120px 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+footer p{
+    color: var(--darkColor);
+    font-size: 10px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    text-align: center;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    position: relative;
+}
+footer h2{
+    font-family: "Roboto", serif;
+    font-size: 12px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1rem;
+    margin: 0 auto;
+    width: fit-content;
+    color: var(--darkColor);
+    position: relative;
+    opacity: 0.6;
+}
+footer h2::before{
+    content: ' ';
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 50%;
+    height: 1px;
+    background: var(--darkColor);
+    margin: 10px 0;
+    opacity: 0.4;
+}
+footer ul{
+    list-style: none;
+    padding: 0;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+footer ul li{
+    margin: 0 10px;
+}
+#menu{
+    position: fixed;
+    top: 50%;
+    right: 10px;
+}
+#menu, #menu a, #menu li{
+    text-decoration: none;
+    list-style: none;
+}
+#menu a{height: 30px;margin: 0;display: contents;}
+#menu li.item{
+    background-color: var(--softColor);
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin: 0 0 10px 0;
+    cursor: pointer;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid #7a724c29;
+}
+#menu li.disabled{
+    background-color: var(--darkColor);
+    pointer-events: none;
+    opacity: 0.2;
+    background-blend-mode: color-burn;
+}
+#menu li.btn_home{
+    background-image: url('../img/svg/icon_home_v2.svg');
+}
+#menu li.btn_arca{
+    background-image: url('../img/svg/icon_arcade_v2.svg');
+}
+#menu li.btn_maps{
+    background-image: url('../img/svg/icon_maps_v2.svg');
+}
+#menu a::after{
+    display: none;
+}
+@media (max-width: 768px){
+    .m_off{display: none;}
+    h1{letter-spacing: 0.2rem;}
+}

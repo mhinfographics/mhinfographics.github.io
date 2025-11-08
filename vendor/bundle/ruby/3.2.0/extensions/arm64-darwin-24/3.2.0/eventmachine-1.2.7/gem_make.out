@@ -1,0 +1,20 @@
+current directory: /Users/marcohernandez/Documents/personal stuff/mhinfographics-io/mhinfographics.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+/Users/marcohernandez/.rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/marcohernandez/Documents/personal stuff/mhinfographics-io/mhinfographics.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251108-12023-xs118f sitelibdir\=./.gem.20251108-12023-xs118f clean
+
+current directory: /Users/marcohernandez/Documents/personal stuff/mhinfographics-io/mhinfographics.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251108-12023-xs118f sitelibdir\=./.gem.20251108-12023-xs118f
+compiling mapper.cpp
+compiling rubymain.cpp
+linking shared-object fastfilereaderext.bundle
+ld: warning: ignoring duplicate libraries: '-lruby.3.2'
+
+current directory: /Users/marcohernandez/Documents/personal stuff/mhinfographics-io/mhinfographics.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251108-12023-xs118f sitelibdir\=./.gem.20251108-12023-xs118f install
+/usr/bin/install -c -m 0755 fastfilereaderext.bundle ./.gem.20251108-12023-xs118f
+
+current directory: /Users/marcohernandez/Documents/personal stuff/mhinfographics-io/mhinfographics.github.io/vendor/bundle/ruby/3.2.0/gems/eventmachine-1.2.7/ext/fastfilereader
+make DESTDIR\= sitearchdir\=./.gem.20251108-12023-xs118f sitelibdir\=./.gem.20251108-12023-xs118f clean
