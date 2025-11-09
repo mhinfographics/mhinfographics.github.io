@@ -11,7 +11,7 @@ layout: none
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
     <ttl>1800</ttl>
-    {% for project in site.data.fun_tography %}
+    {% for project in site.data.funtography %}
     <item>
       <title>{{ project.title }}</title>
       <link>{{ site.url }}/maps.html#proj-id_{{ project.sequence }}</link>
