@@ -1,5 +1,15 @@
 [
     {
+        "link": "https://www.nytimes.com/interactive/2025/11/15/us/camp-mystic-flooding-deaths-video-map.html",
+        "media": "NYT",
+        "month": "November",
+        "year": 2025,
+        "headline": "Swept Away",
+        "category": "National",
+        "tags": "3D, animation, dataviz",
+        "thumb": "https://static01.nyt.com/images/2025/11/15/multimedia/2025-08-20-texas-flood-index/2025-08-20-texas-flood-index-facebookJumbo-v4.jpg",
+        "comments": ""
+    },{
         "link": "https://www.nytimes.com/interactive/2025/11/07/us/flight-cancellations-airports.html",
         "media": "NYT",
         "month": "November",

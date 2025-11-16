@@ -1,13 +1,3 @@
-plugins:
-  - jekyll-feed
-
-feed:
-  path: feed.xml
-  collections:
-    - posts
-  categories:
-    - maps
-
 title: MHinfographics - Storytelling, Sketching and Maps
 description: What I'm up to in the world of graphics, storytelling, sketching and maps in one place.
 author: Marco Hernandez

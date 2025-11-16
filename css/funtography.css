@@ -8,14 +8,14 @@ header .section-icon {
 p{
     line-height: 1.5;
     font-family: "Cormorant Garamond", serif;
-    font-size: 18px;
+    font-size: 19px;
 }
 p.intro{
     margin: 0 auto 150px auto;
     width: 100%;
     font-weight: 500;
     font-style: normal;
-    font-size: 20px;
+    font-size: 22px;
     padding: 0 20px;
     box-sizing: border-box;
 }
@@ -73,7 +73,7 @@ h2{
 #stories .story .wrapper .counter p{
     font-family: "Lavishly Yours", cursive;
     font-weight: 400;
-    font-size: 24px;
+    font-size: 26px;
     color: #838383;
     padding: 0;
     margin: 0;
