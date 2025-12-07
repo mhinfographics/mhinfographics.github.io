@@ -1,3 +1,5 @@
+window.onload = menuCheck;
+
 const imagesToPreload = [
   'img/ch1-iddle.gif', 'img/ch1-active.png', 'img/ch1-active-flash.png',
   'img/ch2-iddle.gif', 'img/ch2-active.png', 'img/ch2-active-flash.png',
@@ -198,3 +200,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 });
+function menuCheck() {
+    document.querySelectorAll('.btn_play').forEach(button => {
+        button.setAttribute('disabled', 'true');
+        button.classList.add('disabled');
+    });
+}

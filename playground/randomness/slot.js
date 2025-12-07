@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    if (typeof menuCheck === 'function') menuCheck();
     // Download bug as PNG using html2canvas
     const downloadBtn = document.getElementById('download_btn');
     if (downloadBtn) {
@@ -238,3 +239,9 @@ document.addEventListener('DOMContentLoaded', () => {
         spinSlots();
     });
 });
+function menuCheck() {
+    document.querySelectorAll('.btn_play').forEach(button => {
+        button.setAttribute('disabled', 'true');
+        button.classList.add('disabled');
+    });
+}

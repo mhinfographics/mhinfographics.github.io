@@ -60,7 +60,7 @@ window.onload = function () {
 };
 
 function menuCheck() {
-    document.querySelectorAll('.btn_playground').forEach(button => {
+    document.querySelectorAll('.btn_play').forEach(button => {
         button.setAttribute('disabled', 'true');
         button.classList.add('disabled');
     });
