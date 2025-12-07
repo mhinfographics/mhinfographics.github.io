@@ -191,4 +191,5 @@
     .cards_grid .learn-more{margin-top: 6rem!important;}
     #projects-container{margin-top: 0!important;}
     #projects-container .card.title{padding: 0;margin-top: 15px!important;}
+    #playground-container .card .preview{height: 395px;}
 }
