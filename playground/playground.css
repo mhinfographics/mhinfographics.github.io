@@ -2,6 +2,12 @@ body{
     margin: 0;
     padding: 0;
 }
+@media screen and (max-width: 600px) {
+    main{
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+}
 header .section-icon {
     max-width: 260px;
 }

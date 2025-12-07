@@ -97,6 +97,8 @@ p.sources span{
     background: transparent;
     cursor: pointer;
     transition: background 0.2s, box-shadow 0.2s;
+    touch-action: manipulation;
+    aspect-ratio: 1;
 }
 
 .rhythm-pad.active {

@@ -42,31 +42,34 @@ h2{
     min-height: 280px;
     margin: 10px;
     border-radius: 5px;
-    /* box-shadow: 0 0 10px rgba(0,0,0,0.2); */
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
     position: relative;
     padding: 30px;
     box-sizing: border-box;
     animation: cardLoadAnimation 0.3s ease-out;
     transition: all 1s ease;  
-    border: 1px solid var(--softColor);
+    /* border: 1px solid var(--softColor); */
     position: relative;
 }
-#arcade-cont .project-card:hover{
+/* #arcade-cont .project-card:hover{
     border: 1px solid var(--brickColor);
-}
+} */
 #arcade-cont .project-card .cover{
-    width: 125%;
-    height: 100px;
+    width: 110%;
+    height: 150px;
+    margin-left: -5%;
+    margin-top: -5%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    opacity: 0.7;
+    border-radius: 5px;
+    border: 1px solid #0000002e;
+
+    /* opacity: 0.7;
     background-blend-mode: difference;
     background-color: #b65a00;
-    filter: sepia(1);
-    border-radius: 5px;
-    margin: -30px 0 0 -12.5%;
-    border-bottom: 1px dashed var(--brickColor);
+    filter: sepia(1); */
+    /* border-bottom: 1px dashed var(--brickColor); */
 }
 #arcade-cont .project-card .cover.blend{
     position: absolute;

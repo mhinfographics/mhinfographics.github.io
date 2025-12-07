@@ -26,7 +26,7 @@ window.onload = function() {
             card.innerHTML = `
                 <a href="${project.link}" target="_blank">
                     <div class="cover" style="background-image: url(${project.thumb});"></div>
-                    <div class="cover blend" style="background-image: url(${project.thumb});"></div>
+                    
                     <div class="text">
                         <p class="headline">${project.headline}</p>
                         <p class="date">${project.month}, ${project.year}</p>
@@ -35,7 +35,7 @@ window.onload = function() {
                     </div> 
                 </a>   
             `;
-
+            //<div class="cover blend" style="background-image: url(${project.thumb});"></div>
             // Replace terms inside the outlet element
             const outletElement = card.querySelector('.outlet');
             if (outletElement) {
