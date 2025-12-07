@@ -6,6 +6,15 @@ const htmlContent = `
             <a class="btn_home" href="https://mhinfographics.github.io/"><li class="item btn_home"></li></a>
             <a class="btn_arca"  href="https://mhinfographics.github.io/arcade"><li class="item btn_arca"></li></a>
             <a class="btn_maps" href="https://mhinfographics.github.io/maps"><li class="item btn_maps"></li></a>
+            <a class="btn_play" href="https://mhinfographics.github.io/playground"><li class="item btn_play"></li></a>
         </ul>
 `;
 mainElement.innerHTML += htmlContent;
+
+// Set copyright year dynamically
+document.addEventListener('DOMContentLoaded', function() {
+    var yearSpan = document.getElementById('copyright-year');
+    if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+    }
+});

@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg id="a" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 40 40">
-  <!-- Generator: Adobe Illustrator 29.0.1, SVG Export Plug-In . SVG Version: 2.1.0 Build 192)  -->
-  <path d="M3.528,1.179h32.944c1.194,0,2.163.969,2.163,2.163v5.329H1.365V3.342c0-1.194.969-2.163,2.163-2.163Z" fill="#7a724c"/>
-  <path d="M1.365,31.329h37.27v5.329c0,1.194-.969,2.163-2.163,2.163H3.528c-1.194,0-2.163-.969-2.163-2.163v-5.329h0Z" fill="#7a724c"/>
-  <g>
-    <rect x="31.595" y="12.784" width="7.04" height="5.159" fill="#7a724c"/>
-    <rect x="1.365" y="12.784" width="7.04" height="5.159" fill="#7a724c"/>
-    <rect x="31.595" y="22.057" width="7.04" height="5.159" fill="#7a724c"/>
-    <rect x="1.365" y="22.057" width="7.04" height="5.159" fill="#7a724c"/>
-  </g>
-  <rect x="12.648" y="12.784" width="14.703" height="14.431" fill="#7a724c"/>
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <rect x="1.79874" y="2.02333" width="15.90915" height="15.90915" fill="#7a724c"/>
+  <rect x="21.50391" y="2.02333" width="15.90915" height="15.90915" fill="#7a724c"/>
+  <rect x="1.79874" y="22.06752" width="15.90915" height="15.90915" fill="#7a724c"/>
+  <rect x="21.50391" y="22.06752" width="15.90915" height="15.90915" fill="#7a724c"/>
 </svg>

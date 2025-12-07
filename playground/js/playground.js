@@ -23,7 +23,7 @@ window.onload = function () {
                 <a href="${project.link}">
                     <div class="wrapper" id="proj-id_${project.sequence}">
                         <div class="counter"><p>Playground&ensp;<span>–Nº${project.sequence}</span></p></div>
-                        ${project.thumbnail ? `<img class="featured" src="${project.thumbnail}" alt="${project.title}">` : ''}
+                        ${project.thumbnail ? `<div class="visual" style="background-image: url('${project.thumbnail}')"></div>` : ''}
                         <div class="text">
                             <p class="date">${project.date}</p>
                             <h3>${project.title}</h3>

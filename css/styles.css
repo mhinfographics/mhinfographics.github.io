@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lavishly+Yours&family=Roboto:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Lavishly+Yours&family=Roboto:ital,wght@0,400..900;1,400..900&display=swap');
 :root{
     --bgColor: #f3f4ef;
     --darkColor: #7a724c;
@@ -200,6 +200,9 @@ footer ul li{
 }
 #menu li.btn_maps{
     background-image: url('../img/svg/icon_maps_v2.svg');
+}
+#menu li.btn_play{
+    background-image: url('../img/svg/icon_playground_v2.svg');
 }
 #menu a::after{
     display: none;

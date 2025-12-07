@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MH– The art of randomness</title>
+    <title>MH– Rhythm</title>
     <link rel="stylesheet" href="../../css/styles.css">
     <link rel="stylesheet" href="../../css/funtography.css">
     <link rel="stylesheet" href="../shared.css">
@@ -13,7 +13,7 @@
     <meta name="image" content="https://mhinfographics.github.io/img/meta/social_og_playground.jpg" />
 
     <!-- HTML Meta Tags -->
-    <title>Daily life facts as visual explainers</title>
+    <title>Daily life things as visual explainers</title>
     <meta name="description" content="tk description." />
     <meta http-equiv="Content-Language" content="en" />
     <link rel="canonical" href="https://mhinfographics.github.io/playground/index.html" />
@@ -23,7 +23,7 @@
     <!-- Facebook Meta Tags -->
     <meta property="og:url" content="https://mhinfographics.github.io/playground/index.html">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Daily life facts as visual explainers">
+    <meta property="og:title" content="Daily life things as visual explainers">
     <meta property="og:description"
         content="tk description.">
     <meta property="og:image" content="https://mhinfographics.github.io/img/meta/social_og_playground.jpg">
@@ -32,7 +32,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta property="twitter:domain" content="mhinfographics.github.io">
     <meta property="twitter:url" content="https://mhinfographics.github.io/playground/index.html">
-    <meta name="twitter:title" content="Daily life facts as visual explainers">
+    <meta name="twitter:title" content="Daily life things as visual explainers">
     <meta name="twitter:description"
         content="tk description.">
     <meta name="twitter:image" content="https://mhinfographics.github.io/img/meta/social_og_playground.jpg">
@@ -53,25 +53,161 @@
         <h1>playground</h1>
     </header>
     <main>
-        <h2>The Rhythm Explorer</h2>
+        <h2>Rhythm</h2>
         <p class="desc">
-            text
+            It's funny about how our brains work. We all like patterns; we feel satisfaction when things are organized in a certain way. My work focuses primarily on that: <b>finding visual patterns and turning them into a story,</b> with the most essential description possible, of course.
         </p>
-        <div class="visual size-620">
-            <img>
+        <p class="desc">
+            I've never met anyone who says they hate music; maybe they like weird music, (there’s always someone, right?) but we all undoubtedly enjoy mosaic-like fragments and certain sounds, those fragments get stuck in your head, certain jingles can live in a corner of your brain for years, whether you like them or not.
+        </p>
+        <p class="desc">
+            I started this short article after I came across with <a href="https://pubmed.ncbi.nlm.nih.gov/24961770/" target="_blank">this paper</a> from the Center for Biomedical Research in Music at Colorado State University. That study suggests we use different areas of our brain to interpret sound patterns, meter and tempo.
+        </p>
+        <p class="desc">
+            In other words, our brain is wired to make us not just listen the sound but somehow “feel it” in different ways, understand timing, anticipate patterns and it flow intuitively. That might explain why you might remember a sticky rhythm pattern and hate it at the same time. The are of the brain in charge of patterns probably is having such a good time that its swimming in dopamine.
+        </p>
+        <div class="visual size-320 multiply">
+            <img src="img/brain.gif" alt="brain activity while listening to rhythm patterns, tempo and meter">
         </div>
         <p class="desc">
-            regular text
+            Here’s a little fun experiment, first turn on you audio, then enable instruments by tapping each box and create a sound pattern, then hit the play button underneath and adjust the sound until you find something pleasant. 
         </p>
-        <h3>subhead</h3>
-        <p class="desc">
-            description
-        </p>
-        <div id="player" class="visual">
-            
+        <div id="player" class="visual player p01">
+            <div class="rhythm-container">
+                <div class="rhythm-characters">
+                    <div class="character ch01 multiply"></div>
+                    <div class="character ch02 multiply"></div>
+                    <div class="character ch03 multiply"></div>
+                    <div class="character ch04 multiply"></div>
+                </div>
+                <div class="rhythm-grid"></div>
+                <div class="rhythm-controls">
+                    <button id="rhythm-toggle" aria-valuetext="play button"></button>
+                </div>
+            </div>
         </div>
         <p class="desc">
-            Thanks for reading.
+            The experiment above is inspired in the great 2009 beatboxing experience created by So Far So Good (SFSG) <a href="https://www.incredibox.com/" target="_blank">Incredibox</a> and Google’s <a href="https://musiclab.chromeexperiments.com/" target="_blank">Chrome Music Lab</a>, both classic experiences that I really enjoyed many years ago and still work as good as they used to be.
+        </p>
+        <p class="desc">
+            One of the most interesting things about Incredibox was the option to adjust the sounds; I think it stimulated just the right part of the brain to hook us into the stimuli.
+        </p>
+        <p class="desc instructions">
+            Here’s another player, <u>same logic as the one above,</u> but now you can adjust the tempo anytime to add some different stimuli to the right side of your brain.
+        </p>
+        <div id="player_tempo" class="visual player p02">
+            <div class="rhythm-container">
+                <div class="rhythm-characters">
+                    <div class="character ch05 multiply"></div>
+                    <div class="character ch06 multiply"></div>
+                    <div class="character ch07 multiply"></div>
+                </div>
+                <div class="rhythm-grid"></div>
+                <div class="rhythm-controls">
+                    <button id="rhythm-toggle-tempo" aria-valuetext="play button"></button>
+                    <div class="tempo-control">
+                        <label class="tempo-label" for="rhythm-tempo-slider">Tempo</label>
+                        <div class="tempo-slider-wrapper">
+                            <span id="rhythm-tempo-value" class="rhythm-tempo-value">200</span>
+                            <div class="tempo-nlabels">
+                                <span class="tempo-min" style="margin-right: 8px;">100</span>
+                                <input id="rhythm-tempo-slider" class="rhythm-tempo" type="range" min="100" max="300" value="200" style="flex: 1;">
+                                <span class="tempo-max">300</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <p class="desc">
+            It’s really interesting how our brain works. Maybe it’s worth taking a little look into the nerdy world here.
+        </p>
+
+        <h3>Interpreting sounds</h3>
+        <p class="desc">
+            These are things that one doesn’t usually stop to think about, but how does our brain know that something is making a sound? Most of the people know that there are waves involved, maybe having two ears might help to find the origin of the sound, but the truth is that the process is simply wonderful. Think about it for a second. A vibration is created somewhwre, it travels by air or liquids as waves and it has to get converted into electric signals so brain can make sense out of it.
+        </p>
+        <p class="desc">
+            Let’s start where we get the first contact. The sound waves first touch our ears and get received through a narrow channel to the eardrum.
+        </p>
+        <div class="visual size-620 multiply">
+            <img src="img/ear01.png" alt="A diagram of the ear showig where the eardrum is">
+            <p class="label gray upper center" style="width: 60px;top: 15%;left: 48%;">Middle ear</p>
+            <p class="label gray upper center" style="width: 60px;top: 68%;left: 5%;">Outter ear</p>
+            <p class="label center" style="top: 38%;left: 42%;">Temporal bone</p>
+            <p class="label center" style="top: 51%;left: 35%;">Ear canal</p>
+            <p class="label" style="top: 88%;left: 30%;">Ear</p>
+            <p class="label red" style="top: 50%;left: 82%;">Eardrum</p>
+        </div>
+        <p class="desc">
+            The vibrations generated by the eardrum are collected and modified by the auditory ossicles in the inner ear which passes the sound as vibrations to the cochlea.
+        </p>
+        <div class="visual size-620 multiply">
+            <img src="img/ear02.gif" alt="A diagram of the middle and inner ear">
+            <p class="label gray upper center" style="width: 60px;top: 10%;left: 18%;">Middle ear</p>
+            <p class="label gray upper center" style="width: 60px;top: 10%;left: 85%;">Inner ear</p>
+            <p class="label gray stroke" style="top: 50%;left: 5%;">Ear canal</p>
+            <p class="label gray stroke" style="top: 55%;left: 48%;">Eardrum</p>
+            <p class="label gray" style="top: 84%;left: 3%;">Ear</p>
+            <p class="label gray stroke" style="top: 52%;left: 84%;">Cochlea</p>
+            <p class="label center stroke" style="width: 60px;top: 17%;left: 43%;">Auditory ossicles</p>
+            <p class="label gray center" style="top: 32%;left: 12%;">Temporal bone</p>
+        </div>
+        <p class="desc">
+            Up to this point, it’s mostly a mechanical process of movement, filtering, and calibration. But when you enter the cochlea, that snail-shaped organ, things get mysteriously interesting.
+            Inside there, the fluid responds to these vibrations by creating waves. 
+        </p>
+        <div class="visual size-620 multiply">
+            <img src="img/ear03.gif" alt="A diagram of the inner structure of the cochlea showing how sound vibrations are converted into electrical impulses">
+            <p class="label upper bold" style="width: 100px;top: 0%;left: 15%;">Low pitch</p>
+            <p class="label upper bold" style="width: 100px;top: 0%;left: 65%;">High pitch</p>
+            <p class="label" style="top: 87%;left: 20%;">350Hz sound</p>
+            <p class="label" style="top: 87%;left: 71%;">4,000Hz sound</p>
+        </div>
+        <p class="desc">    
+            Different areas of the organ react to different sounds; high frequencies cause vibrations in the stiffer, narrower base of the basilar membrane, and lower frequencies cause vibrations in the more flexible, wider apex.
+        </p>
+        <div class="visual size-620 multiply">
+            <img src="img/ear04.png" alt="A diagram of the cochlea showing how different areas respond to different sound frequencies in Hz">
+            <p class="label upper bold" style="top: 5%;left: 2%;">The cochlea</p>
+            <p class="label gray" style="top: 91%;left: 52%;">5,000Hz</p>
+            <p class="label gray stroke" style="top: 66%;left: 78%;">4,000Hz</p>
+            <p class="label gray stroke" style="top: 28%;left: 78%;">3,000Hz</p>
+            <p class="label gray stroke" style="top: 12%;left: 55%;">2,000Hz</p>
+            <p class="label gray stroke" style="top: 21%;left: 29%;">1,500Hz</p>
+            <p class="label stroke" style="top: 50%;left: 8%;">Cochlear duct</p>
+            <p class="label stroke" style="width: 100px;top: 77%;left: 69%;">Basilar membrane</p>
+            <p class="label red stroke" style="top: 70%;left: 46%;">1,000Hz</p>
+            <p class="label red stroke" style="top: 61%;left: 64%;">800Hz</p>
+            <p class="label red stroke" style="top: 32%;left: 62%;">600Hz</p>
+            <p class="label red stroke" style="top: 32%;left: 43%;">400Hz</p>
+            <p class="label red stroke" style="top: 53%;left: 42%;">200Hz</p>
+            <p class="label stroke" style="top: 50%;left: 52%;">Apex</p>
+        </div>
+        <p class="desc">
+            Zooming in aven further, inside the cochlea, the movement of little filaments causes a chemical reaction that generates electrical impulses.<br> 
+            Those impulses are sent instantly to the brain to be interpreted as different sounds.
+        </p>
+        <div class="visual size-620 multiply">
+            <img src="img/ear05.gif" alt="A diagram showing how sound vibrations are converted into electrical impulses by the hair cells">
+            <p class="label upper bold" style="width: 100px;top: 0%;left: 33%;">Hair cells</p>
+            <p class="label red stroke" style="top: 20%;left: 78%;">Stimulus</p>
+            <p class="label red stroke" style="top: 70%;left: 73%;">Impulses</p>
+            <p class="label stroke" style="top: 60%;left: 38%;">Neurotransmitters</p>
+        </div>
+        <p class="desc">
+            It is important to note here that the brain calibrates all of this in harmony with other senses; these signals are contrasted with what the eyes see. If the signals are confusing and do not match what your eyes see, you get dizzy.
+        </p>
+        <p class="desc">
+            Our systems are truly amazing, don't you think?
+        </p>
+        <p class="desc sources">
+            <span>Sources:</span><br>
+            <a href="https://pubmed.ncbi.nlm.nih.gov/24961770/" target="_blank">PUBMED</a> Human brain basis of musical rhythm perception: common and distinct neural substrates for meter, tempo, and pattern.<br>
+            <a href="https://freesound.org/" target="_blank">freesound.org</a> – sound samples by:<br>
+            mutatorscotch<br> 
+            <a href="https://musiclab.chromeexperiments.com/" target="_blank">musiclab</a> – sound samples by:<br>
+            Google Creative Lab.
         </p>
     </main>
     <footer>
@@ -81,10 +217,9 @@
             <li><a href="https://twitter.com/TmarcoH">Twitter</a></li>
             <li><a href="https://bsky.app/profile/mhernandez.bsky.social">Bluesky</a></li>
         </ul>
-        <p>&copy; 2025 MH Infographics.<br>All rights reserved.</p>
+        <p>&copy; <span id="copyright-year"></span> MH Infographics.<br>All rights reserved.</p>
     </footer>
-    <script src="player.js"></script>
-    <script src="slot.js"></script>
+    <script src="js/player.js"></script>
     <script src="../../js/menu.js"></script>
     <script src="../../js/randomtopper.js"></script>
 </body>

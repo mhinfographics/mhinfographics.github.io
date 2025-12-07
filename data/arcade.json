@@ -1,5 +1,25 @@
 [
     {
+        "link": "https://www.nytimes.com/interactive/2025/12/06/us/trump-white-house-ballroom-architect.html",
+        "media": "NYT",
+        "month": "December",
+        "year": 2025,
+        "headline": "See the East Wing Design, Before Trump Changed Architects.",
+        "category": "National",
+        "tags": "3D, animation, diagrams",
+        "thumb": "https://static01.nyt.com/images/2025/12/05/multimedia/2025-12-03-white-house-east-wing-index/2025-12-03-white-house-east-wing-index-facebookJumbo-v8.jpg",
+        "comments": ""
+    },{
+        "link": "https://www.nytimes.com/interactive/2025/11/26/special-series/brooklyn-queens-expressway-new-york-highway.html",
+        "media": "NYT",
+        "month": "November",
+        "year": 2025,
+        "headline": "A Highway Is Crumbling. New York Can’t Agree on How to Fix It.",
+        "category": "Transporation",
+        "tags": "diagrams, 3D, video",
+        "thumb": "https://static01.nyt.com/images/2025/11/17/multimedia/2025-08-19-brooklyn-queens-expressway-index/2025-08-19-brooklyn-queens-expressway-index-facebookJumbo-v13.jpg",
+        "comments": ""
+    },{
         "link": "https://www.nytimes.com/interactive/2025/11/15/us/camp-mystic-flooding-deaths-video-map.html",
         "media": "NYT",
         "month": "November",

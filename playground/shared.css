@@ -24,8 +24,14 @@ p.desc{
 .visual.size-1200{
     max-width: 1200px;
 }
+.visual.size-820{
+    max-width: 820px;
+}
 .visual.size-620{
     max-width: 620px;
+}
+.visual.size-420{
+    max-width: 420px;
 }
 .visual.size-320{
     max-width: 320px;
