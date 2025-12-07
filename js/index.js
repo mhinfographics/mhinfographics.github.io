@@ -1,4 +1,9 @@
-window.onload = function () { addPortfolioCards(); addBlogCards(); addSketchCards(); addtalkCards(); addMapsCards(); addAwardCards(); menuCheck();};
+window.onload = function () { addPortfolioCards(); addBlogCards(); addSketchCards(); addtalkCards(); addMapsCards(); addAwardCards(); menuCheck();addPlaygroundCards(); };
+function trimDescription(text, maxWords = 14) {
+    if (!text) return '';
+    const words = text.split(/\s+/);
+    return words.length > maxWords ? words.slice(0, maxWords).join(' ') + '... <span>More →</span>' : text;
+}
 function menuCheck(){
     document.querySelectorAll('.btn_home').forEach(button => {
         button.setAttribute('disabled', 'true');
@@ -131,7 +136,7 @@ function addtalkCards() {
             const container = document.getElementById('talks-container');
             container.appendChild(learnMore);
 
-            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>All events as a speaker, interviews and exhibitions.</p><a href='https://mhinfographics.com/highlights/#:~:text=Infographics%2Ddataviz-,Talks,-%2C%20exhibitions%20and%20interviews' target='_blank'>Full list</a>";
+            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>All events as a speaker, interviews and exhibitions.</p><a href='https://mhinfographics.com/highlights' target='_blank'>Full list</a>";
             learnMore.innerHTML = learnMoreCard;
         })
         .catch(error => console.error('Error fetching portfolio data:', error));
@@ -168,7 +173,37 @@ function addMapsCards() {
             });
         }).catch(error => console.error('Error fetching portfolio data:', error));
 }
+function addPlaygroundCards() {
+    fetch('playground/data/playground.json')
+        .then(response => response.json())
+        .then(data => {
+            const projects = data.slice(0, 3);
+            const container = document.getElementById('playground-container');
 
+            projects.forEach(project => {
+                const card = document.createElement('div');
+                card.className = 'card project';
+                    card.innerHTML = `
+                        <a href="playground/${project.link}" target="_blank">    
+                            <div class="preview multiply" style="background-image: url('playground/${project.thumbnail}')"></div>   
+                            <p class="category">${project.title}</p>
+                            <p class="date">${project.date}</p>
+                            <p class="desc">${trimDescription(project.description)}</p>
+                        </a>
+                    `;
+                container.appendChild(card);
+            });
+        }).then((data) => {
+            let learnMore = document.createElement('div');
+            learnMore.classList.add('card', 'learn-more');
+            const container = document.getElementById('playground-container');
+            container.appendChild(learnMore);
+
+            const learnMoreCard = "<img class='row-icon' src='img/svg/svg_m-plain.svg' alt='m letter with silly faces'><p>Want to see more blog entries like this?</p><a href='https://mhinfographics.github.io/playground/' target='_blank'>Come to the playground!</a>";
+            learnMore.innerHTML = learnMoreCard;
+        })
+        .catch(error => console.error('Error fetching portfolio data:', error));
+}
 function addAwardCards() {
     fetch('data/awards.json')
         .then(response => response.json())

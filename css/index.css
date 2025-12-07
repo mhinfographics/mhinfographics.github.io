@@ -46,6 +46,36 @@
     transition: all 0.3s ease-out;
     position: relative;
 }
+.cards_grid .card .preview{
+    width: 100%;
+    height: 304px;
+    background-size: 100% auto;
+    background-position: center;
+    border-radius: 5px;
+    transition: all 0.3s ease-out;
+    position: relative;
+}
+.cards_grid .card .preview::before{
+    content: ' ';
+    position: absolute;
+    width: 100%;
+    height: calc(100% + 6px);
+    background-color: #020423;
+    opacity: 0.6;
+    border-radius: 5px;
+    top: 0;
+    left: 0;
+}
+#playground-container .project p.desc{
+    margin-top: 0;
+}
+#playground-container .project p.desc span{
+    font-weight: 700;
+    font-size: xx-small;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+.multiply{mix-blend-mode: multiply;}
 .cards_grid .card p{
     color: var(--darkColor);
     line-height: 1rem;
