@@ -1,12 +1,21 @@
 [
     {
+        "thumb": "nyt_112025_01.jpg",
+        "link": "https://www.nytimes.com/interactive/2025/11/26/nyregion/brooklyn-queens-expressway-new-york-highway.html",
+        "media": "The New York Times",
+        "month": "November",
+        "year": 2025,
+        "headline": "A Highway Is Crumbling. New York Can’t Agree on How to Fix It",
+        "type": "latest",
+        "category":"Transportation"
+    },{
         "thumb": "nyt_092025_01.jpg",
         "link": "https://www.nytimes.com/interactive/2025/09/08/world/europe/ukraine-russia-war-drones-tanks-military.html",
         "media": "The New York Times",
         "month": "September",
         "year": 2025,
         "headline": "Tanks Were Just Tanks, Until Drones Made Them Change",
-        "type": "latest",
+        "type": "recent",
         "category":"International"
     },{
         "thumb": "nyt_032025_01.jpg",
