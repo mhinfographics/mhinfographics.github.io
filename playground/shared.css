@@ -63,3 +63,9 @@ p.desc{
     border-radius: 5px;
     border: none;
 }
+@media screen and (max-width: 600px) {
+    main{
+        padding-left: 20px;
+        padding-right: 40px;
+    }
+}

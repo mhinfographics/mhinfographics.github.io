@@ -160,7 +160,7 @@ h2{
 @media (max-width: 768px){
     #menu{right: 8px;}
     #arcade-cont .project-card{width: 270px;}
-    #arcade-cont .project-card .cover{height: 125px;width: 128%;margin-left: -14%;}
+    #arcade-cont .project-card .cover{height: 145px;width: 128%;margin-left: -14%;margin-top: -30px;}
     #arcade-cont .project-card .cover.blend{display: none;}
     p.intro {
         margin-top: 15px;
