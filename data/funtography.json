@@ -1,5 +1,41 @@
 [
     {
+        "sequence": "17",
+        "date": "Dec. 2025",
+        "theme": "white",
+        "title": "Snowy Christmas 2025",
+        "description": "Contrary to popular belief, it’s not that common to see snow in New York City in November, or at least not in recent years. This year we had snowflakes very early on and a couple of full snowfalls well into December. Two years ago we also had reports of possible snow in November, and that’s why I decided to create (<a target=\"_blank\" href=\"https://mhinfographics.github.io/funtography/03.html\">these animations showing the dance of snow</a>) at the North Pole back then.",
+        "main": "2025/xmas-ice.png",
+        "body_complment": [
+            {
+                "text_wide": "This year, I used the same data and created new maps; as before, the data comes from the US National Ice Center (<a target=\"_blank\" href=\"https://usicecenter.gov/\">usicecenter.gov</a>) Below you can see the picture of the snow and ice at the North Pole this Christmas."
+            },
+            {
+                "image_large": "2025/xmax-snow.png"
+            },
+            {
+                "text_wide": "But perhaps the fun part is watching the almost two-month-long dance of the snow, seeing how the snow spreads across the continent is fun, don’t you think?"
+            },
+            {
+                "image_large": "2025/snow-animation.gif"
+            },
+            {
+                "text_wide": "Or even if it's just ice, here's the same time frame looking at ice only."
+            },
+            {
+                "image_large": "2025/ice-animation.gif"
+            },
+            {
+                "text_wide": "It’s incredible to see the dynamics of our planet. I was born near the equator, so seasons aren’t the same thing. You might see the change by the amount of rain only. That's one of my favorite things of New York, the city fully transforms into something else with each season. Here's the contrast in ice and snow between Nov. 01 and Dec. 28."
+            },
+            {
+                "image_large": "2025/snow-vs.gif"
+            },
+            {
+                "text_wide": "Happy Hollidays, see you again in 2026!"
+            }
+        ]
+    },{
         "sequence": "16",
         "date": "Nov. 2025",
         "theme": "transparent",
