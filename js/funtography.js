@@ -24,7 +24,7 @@ window.onload = function () {
                     <div class="counter"><p>Funtography&ensp;<span>–Nº${project.sequence}</span></p></div>
                     <div class="text">
                         <p class="date">${project.date}</p>
-                        <a class="title-link" href="${project.sequence}.html"><h3>${project.title}</h3></a>
+                        <a class="title-link" href="https://mhinfographics.github.io/funtography/${project.sequence}.html"><h3>${project.title}</h3></a>
                         <p class="desc">${project.description}</p>
                     </div>
                     ${project.main ? `<img class="featured" src="img/maps/${project.main}" alt="${project.title}">` : ''}
