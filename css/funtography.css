@@ -60,6 +60,28 @@ h2{
     text-align: left;
     box-sizing: border-box;
 }
+a.title-link{
+    text-decoration: none;
+    color: inherit;
+}
+p.permlink{
+    margin-top: 0;
+}
+p.permlink a{
+    position: relative;
+}
+p.permlink a span{
+    font-size: 14px;
+    border-top: 2px solid;
+    border-right: 2px solid;
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    font-weight: 900;
+    right: -20px;
+    top: 0px;
+    transform: scale(0.7);
+}
 #stories .story .wrapper .counter{
     position: absolute;
     top: -55px;

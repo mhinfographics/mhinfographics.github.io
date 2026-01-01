@@ -32,6 +32,45 @@ body.white{
 }
 .bottom-wrapper ul.latest{
     display: block;
+    margin-bottom: 3rem;
+}
+.bottom-wrapper ul.latest li{
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.bottom-wrapper ul.latest .thumb{
+    margin: 0 auto;
+    height: 320px;
+    width: 100%;
+    max-width: 380px;
+    background-position: center;
+    background-size: 200% auto;
+    border: 1px solid #e4e4e4;
+    /* background-blend-mode: luminosity; */
+    background-color: #d3c494;
+    border-radius: 9px;
+}
+.bottom-wrapper ul.latest li p{
+    margin: 0;
+    color: brown;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    top: -16px;
+    background-color: #f3f4ef;
+    padding: 10px 15px;
+    border-radius: 8px;
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 14px;
+}
+.bottom-wrapper ul.latest li p span{
+    color: var(--darkerColor);
+}
+.bottom-wrapper ul.latest li p a{
+    font-size: 13px;
+    text-decoration: none;
 }
 .bottom-wrapper ul li{
     margin: 5px;

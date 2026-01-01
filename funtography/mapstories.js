@@ -17,12 +17,24 @@ window.onload = function () {
                         const latestEntries = data.slice(0, 3);
                         latestEntries.forEach(entry => {
                             const listItem = document.createElement('li');
-                            const link = document.createElement('a');
                             const sequence = String(entry.sequence).padStart(2, '0');
-                            link.href = `${sequence}.html`;
-                            link.textContent = entry.title;
-                            listItem.textContent = `Nº${entry.sequence} `;
-                            listItem.appendChild(link);
+                            const url = `${sequence}.html`;
+
+                            listItem.style.cursor = 'pointer';
+                            listItem.addEventListener('click', () => {
+                                window.location.href = url;
+                            });
+
+                            const thumbDiv = document.createElement('div');
+                            thumbDiv.className = 'thumb';
+                            thumbDiv.style.backgroundImage = `url(../img/maps/${entry.main})`;
+
+                            const p = document.createElement('p');
+                            p.innerHTML = `Nº${entry.sequence}– <span>${entry.title}</span>`;
+                            
+                            listItem.appendChild(thumbDiv);
+                            listItem.appendChild(p);
+
                             latestUl.appendChild(listItem);
                         });
                     }
