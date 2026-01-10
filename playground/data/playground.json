@@ -1,5 +1,12 @@
 [
    {
+        "sequence": "03",
+        "date": "Jan. 2026",
+        "title": "Radiation",
+        "description": "Bananas emit a small amount of radiation due to their potassium. But they are completely harmless; in fact, it would take absurd circumstances for them to become dangerous. But let’s go bananas to explore it!",
+        "thumbnail": "radiation/img/radiation.png",
+        "link": "radiation/"
+    },{
         "sequence": "02",
         "date": "DEC. 2025",
         "title": "Rhythm",

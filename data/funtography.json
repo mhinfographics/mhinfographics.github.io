@@ -1,5 +1,29 @@
 [
     {
+        "sequence": "18",
+        "date": "Jan. 2026",
+        "theme": "transparent",
+        "title": "The dimming of fireflies",
+        "description": "Once common nighttime sightings, fireflies are now vanishing. Scientists warn their decline is driven by habitat loss, pesticides, and light pollution disrupting their glowing courtship. Without action, future generations may never see their bioluminous dance.",
+        "main": "2026/fireflies.png",
+        "body_complment": [
+            {
+                "text_wide": "As a child in Costa Rica, I remember seeing the cow pastures filled with dancing lights. At night, my town was very dark, and on a moonless night, on a nearby creek, you could clearly see the edge of the Milky Way merging with the lights of the fireflies dancing all around you… magic.<br>It doesn’t look like that anymore, and not just in my town, but all over the world."
+            },
+            {
+                "image_large": "2026/fireflies.jpg"
+            },
+            {
+                "text_wide": "Light pollution is one of the factors contributing to the decline of their populations, as it interferes with their communication systems. This, in addition to the fact that as sea levels rise, their habitats are permanently flooded, leading to the loss of conventional breeding grounds. Both of these causalities are highly pronounced in North America where over the past 20 years, cities become more brightly lit. <br> Native to North America (1) and Asia (2 and 3), these are some of the species that are on the verge of extinction."
+            },
+            {
+                "image_large": "2026/fireflies-illos.jpg"
+            },
+            {
+                "text_wide": "This is part of a series of pages I worked on last year for the German magazine INGRAPHICS. The 85-pages magazine is dedicated to data vizualization, if you want to see all the maps I created for the magazine and many more great graphics from authors all over the world, you can get a copy here: <a target=\"_blank\" href=\"https://schwochow.shop/products/ingraphics-magazine\">https://schwochow.shop/products/ingraphics-magazine</a>"
+            }
+        ]
+    },{
         "sequence": "17",
         "date": "Dec. 2025",
         "theme": "white",
