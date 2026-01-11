@@ -45,8 +45,12 @@ window.onload = function () {
                             const listItem = document.createElement('li');
                             const link = document.createElement('a');
                             const sequence = String(entry.sequence).padStart(2, '0');
+                            const thumbnail = document.createElement('div');
+                            thumbnail.className = 'thumbnail';
+                            thumbnail.style.backgroundImage = `url(../img/maps/${entry.main})`;
                             link.href = `${sequence}.html`;
                             link.textContent = `Nº${sequence}`;
+                            listItem.appendChild(thumbnail);
                             listItem.appendChild(link);
                             numbersUl.appendChild(listItem);
                         });

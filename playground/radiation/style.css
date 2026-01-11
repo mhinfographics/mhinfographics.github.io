@@ -182,4 +182,12 @@ main .small_section a{
     .headline .topper.g-img .tag03{
         bottom: -1%;
     }
+    .pile-scale__line{display: none;}
+    .pile-scale__label{
+        text-align: center;
+    }
+    .pile-scale{
+        left: 50%;
+        transform: translateX(-50%);
+    }
 }
