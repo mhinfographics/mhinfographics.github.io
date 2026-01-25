@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
 }
+h1{margin-bottom: 2rem;}
 header .section-icon {
     max-width: 260px;
 }
