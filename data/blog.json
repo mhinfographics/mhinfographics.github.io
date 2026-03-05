@@ -1,5 +1,17 @@
 [
     {
+        "thumb": "mhi_2025gr.jpg",
+        "link": "https://mhinfographics.com/2025/12/03/2025-the-year-in-graphics/",
+        "category": "2025 in Review",
+        "tag": "Mini-stories",
+        "headline": "2025: the year in graphics"
+    },{
+        "thumb": "mhi_2026magazine.jpg",
+        "link": "https://mhinfographics.com/2026/01/08/ingraphics-magazine-is-back/",
+        "category": "Magazine",
+        "tag": "Dataviz",
+        "headline": "InGraphics Magazine is back (2026)"
+    },{
         "thumb": "mhi_voxels.jpg",
         "link": "https://mhinfographics.com/2024/12/19/tutorial-how-to-create-this-voxel-styled-map/",
         "category": "Tutorial",
