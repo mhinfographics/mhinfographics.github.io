@@ -172,6 +172,61 @@
     padding: 20px;
 }
 #awards-container .card.learn-more .row-icon{margin-top: 0;}
+
+.cards_grid .randomizer{
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+}
+@media screen and (min-width: 500px){
+    .cards_grid .randomizer{padding-top: 20%;}
+}
+.cards_grid .randomizer p.button{
+    background-color: var(--softerColor);
+    margin: 0 auto;
+    border: 1px solid var(--softColor);
+    width: fit-content;
+    border-radius: 3px;
+    color: var(--darkColor);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+.cards_grid .randomizer p.button.st01{
+    padding: 8px 6px;
+}
+.cards_grid .randomizer p.button.st02{
+    padding: 4px 6px;
+}
+.cards_grid .randomizer p.button.st01::before{
+    content: ' ';
+    position: absolute;
+    width: 75px;
+    height: 40px;
+    background-image: url('../img/assets/dices_01.png');
+    background-size: contain;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    top: -45px;
+    left: 0;
+}
+.cards_grid .randomizer p.button.st02::before{
+    content: ' ';
+    position: absolute;
+    width: 75px;
+    height: 40px;
+    background-image: url('../img/assets/dices_02.png');
+    background-size: contain;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    top: -45px;
+    left: 0;
+}
 @media (max-width: 768px){
     .cards_grid{flex-direction: column;}
     .cards_grid .card{max-width: 225px;}
