@@ -55,7 +55,9 @@ window.onload = function () {
                 content += `<img src="img/maps/${value}" class="complement" />`;
             } else if (key === 'image_large') {
                 content += `<img src="img/maps/${value}" class="featured" />`;
-            } else if (key === 'text_wide') {
+            } else if (key === 'image_body') {
+                content += `<img src="img/maps/${value}" class="body" />`;
+            }  else if (key === 'text_wide') {
                 content += `<div class="text"><p>${value}</p></div>`;
             }
         });

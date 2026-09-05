@@ -110,6 +110,11 @@ p.permlink a span{
     width: 100%;
     height: auto;
 }
+#stories .story .wrapper .body{
+    max-width: 680px;
+    height: auto;
+    margin: 0 auto;
+}
 #stories .story .wrapper h3{
     font-size: 2.2rem;
     font-weight: 700;
@@ -206,8 +211,8 @@ p.permlink a span{
     opacity: 1;
 }
 .complements div.text p{
-    max-width: 580px;
-    margin-top: 80px;
+    /* max-width: 580px; */
+    margin-top: 60px;
     text-align: left;
 }
 @media screen and (max-width: 600px) {

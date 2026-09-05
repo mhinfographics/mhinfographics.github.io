@@ -1,5 +1,46 @@
 [
     {
+        "sequence": "20",
+        "date": "Sept. 2026",
+        "theme": "transparent",
+        "title": "A Weekend in Wolfgangsee",
+        "description": "I spent the last week of August this year at the <a href=\"https://vis.csh.ac.at/vis-workshop-2026/\" target=\"_blank\">Complexity Science Workshop.</a> It was a really great experience, and I met many interesting people. The workshop was held in Vienna, and afterwards, over the weekend, I decided to take a short break to make a visit to the towns on the shores of the Wolfgangsee lake. I knew that this charming place sorounded by huge mountains would be a great way to rest, but I ended up very impressed by the beauty of the place, so much that now I also want to share a few maps of the area with things that I really appreciated from Wolfgangsee. </br> </br> By the way... this is not a paid article promoting tourism in Austria or anything like it. I'm just sharing my experiences through the stuff I enjoy, maps and illustrations. So.. here we go:",
+        "main": "2026/wolfgang_satellite.jpg",
+        "body_complment": [
+            {
+                "text_wide": "From the moment you arrive in the area, the towering mountains leave you awestruck. It was my first time in Austria; I know you can make the trip from Vienna to Wolfgang by train, but the schedules didn't fit my plans, so I decided to rent a car and drive the three or four hours to get there. I don't know if you get the same impression from the train, but seeing the mountains on the horizon while driving is truly breathtaking; suddenly, you find yourself right there, facing that beautiful lake with towering rock faces in the background. In summer, everything is lush and green, and people make the most of it—swimming and soaking up the sun."
+            },
+            {
+                "image_body": "2026/wolfgang_main.jpg"
+            },
+            {
+                "text_wide": "I stayed at the eastern end of the lake, in the town of Strobl, the waterfront had a few restaurants, nice hike trails and even a public amphitheater where I enjoyed a concert of a local band playing from classical music to pop with an Austrian twist. The second day I went for a hike around the lake towards St. Wolfgang."
+            },
+            {
+                "image_body": "2026/wolfgang_hike.jpg"
+            },
+            {
+                "text_wide": "There are many towns around, they are all charming, but the one I liked the most was St. Wolfgang, for its narrow streets and alleys, markets, restaurants and the famous <a href=\"https://www.wolfgangsee.at/en/places-of-interest/st-wolfgang-church/\" target=\"_blank\">St. Wolfgang Church</a>. Here's some of my quick sketches of that place."
+            },
+            {
+                "image_small": "2026/wolfgang_illo_01.jpg"
+            },
+            {
+                "image_small": "2026/wolfgang_illo_02.jpg"
+            },{
+                "text_wide": "One of the nicest things about this place is the train going up to the 1,700 meter high Schafberg peak, there you can enjoy breathtaking views of the towns and other lakes around. This scenic trip in the SchafbergBahn can take you from the shore to the peak of mountain in about 40min."
+            },{
+                "image_body": "2026/wolfgang_contour-train.jpg"
+            },{
+                "text_wide": "You might get a little vertigo depending on where you stand on the peak. There's a sharp edge north of the mountain that can shake your legs a bit if you get too close. Then to the south the great views of the Wolfgangsee unfold. Quite impressive to see the lake from up there, more than a kilometer below if you culd do it on a stright line or on a glider. Here's a strech of about 8km from the top of the mountain down to the bottom of the lake."
+            },{
+                "image_body":"2026/wolfgang_contour-profile.jpg"
+            },{
+                "text_wide": "It was a really nice weekend break after a few months of intense work and city life. I guess I can describe this summer trip as a combination of Science, Communication, Academics and beautiful scenery.<br><br>Thanks for reading my blog!"
+            }
+        ]
+    },
+    {
         "sequence": "19",
         "date": "Jan. 2026",
         "theme": "white",
@@ -9,25 +50,35 @@
         "body_complment": [
             {
                 "text_wide": "Most of Greenland is covered by a massive ice sheet in the middle of the island. That ice blanket is about 3,5km thick at its maximum, and by area of extent is the second largest body of ice in the world, only behind Antarctica. Greenland’s ice sheet alone is larger than the combined areas of France, Germany, and Spain. Here’s a map of Greenland’s ice sheet and glaciers based on data from <a href=\"https://cryoportal.enveo.at\">Enveo Cryoportal</a>."
-            },{
+            },
+            {
                 "image_large": "2026/greenland_ice.jpg"
-            },{
+            },
+            {
                 "text_wide": "The ice in Greenland is melting at an incredible rate, twice as fast as in Antarctica. <a href=\"https://science.nasa.gov/earth/explore/earth-indicators/ice-sheets\">NASA has been monitoring</a> the change in Greenland's ice mass since 2002, and the trend shows a decrease of 266 billion metric tons of ice per year, enough to fill 100 million Olympic-sized swimming pools. Greenland’s outer glaciers are experiencing rapid acceleration, thinning, and increased calving, significantly contributing to sea-level rise. Researchers estimate a rise in sea level of about 7m if the ice sheet melts. Key, fast-moving glaciers include Jakobshavn Isbræ, Kangerdlugssuaq and Helheim, and Nioghalvfjerdsbræ the 79°N Glacier, which collectively drain a large percentage of the ice sheet.<br><br> Below you can see a map showing the magnitude of ice velocity in Greenland derived by the European Space Agency using SAR data from Sentinel-1 acquired between 2019 and 2020."
-            },{
+            },
+            {
                 "image_large": "2026/greenland_ice-speed.jpg"
-            },{
-                "text_wide":"That, of course, makes me wonder what Greenland would look like without that enormous ice sheet. <a href=\"https://www.gebco.net/data_and_products/gridded_bathymetry_data\">GEBCO</a> offers global bathymetry data, and when I downloaded the sub-ice data for the area of Greenland I found that most of the interior of the island is under the sea level. Without the ice connecting the land, Greenland would look like a cluster of large islands rather than a single landmass, with jagged coastlines and deep fjords. Below you can see a map of Greenland with no ice."
-            },{
+            },
+            {
+                "text_wide": "That, of course, makes me wonder what Greenland would look like without that enormous ice sheet. <a href=\"https://www.gebco.net/data_and_products/gridded_bathymetry_data\">GEBCO</a> offers global bathymetry data, and when I downloaded the sub-ice data for the area of Greenland I found that most of the interior of the island is under the sea level. Without the ice connecting the land, Greenland would look like a cluster of large islands rather than a single landmass, with jagged coastlines and deep fjords. Below you can see a map of Greenland with no ice."
+            },
+            {
                 "image_large": "2026/greenland_bedrock.jpg"
-            },{
-                "text_wide":"Having the middle of the territory completely covered by a shell of ice has, of course, determined where its inhabitants have settled. Greenland’s population is about 57,000(as of 2026), most of the people lives in coastal, ice-free areas. The capital, Nuuk, is home to nearly 20,000 of Greenlanders, but the island is full of tiny settlements of just a few residents as you can see in the map below. (data from OSM)"
-            },{
+            },
+            {
+                "text_wide": "Having the middle of the territory completely covered by a shell of ice has, of course, determined where its inhabitants have settled. Greenland’s population is about 57,000(as of 2026), most of the people lives in coastal, ice-free areas. The capital, Nuuk, is home to nearly 20,000 of Greenlanders, but the island is full of tiny settlements of just a few residents as you can see in the map below. (data from OSM)"
+            },
+            {
                 "image_large": "2026/greenland_population.png"
-            },{
+            },
+            {
                 "text_wide": "And talking about Greenland’s residents, polar bears are an icon for greenlanders. Greenland's coat of arms features a polar bear. For Greenlanders, the polar bear —or nanoq— more than an animal or a symbol. They are a central figure in Inuit mythology, representing the strength and resilience needed to survive in the Arctic. Polar bears in Greenland are in the low thousands, primarily inhabit the remote eastern and northern coastal regions, relying on sea ice for hunting seals.<br><br> A group of scientists from the University of Washington and the National Snow Ice and Data Center, followed bears in Southeast Greenland for seven years and after a genetic analysis they discovered that polar bears in the south are a distinct subpopulation that has adapted to survive with less sea ice. Below is a map showing their habitad areas based in info provided by NASA's <a href=\"https://www.nasa.gov/earth-and-climate/subpopulation-of-greenland-polar-bears-found-by-nasa-funded-study\">Earth Observatory.</a>"
-            },{
+            },
+            {
                 "image_large": "2026/greenland_bears.jpg"
-            },{
+            },
+            {
                 "text_wide": "Greenland holds significant untapped mineral wealth, particularly rare earth elements that are really appealing for the global tech industry. The island seats on top of major deposits of iron ore, zinc, copper, gold, graphite, uranium, titanium, and vanadium, with potential for oil and gas offshore. While exploration reveals vast potential, especially in southern and western areas, challenges include limited exploration, harsh climate, environmental concerns, like uranium mining bans, and complex political factors hold investment. Here's a set of mineral deposits identified by the <a href=\"https://eng.geus.dk/mineral-resources\">Geological Survey of Denmark and Greenland.</a>"
             },
             {
@@ -41,11 +92,13 @@
             },
             {
                 "image_small": "2026/greenland_minerals_others.jpg"
-            },{
+            },
+            {
                 "text_wide": "A map of Greenland (or ten) represents much more than just an ice-covered shape. Maps can distort perception, simplify complexity, or transform the unknown into memorable stories. Behind these ten maps lies a community of Greenlanders with much more to tell. Decisions about their resources and development should not rest with distant observers. Those decisions will ultimately transform their lives. I personally believe that everyone has the right to tell their own story; the right to draw their own maps."
             }
         ]
-    },{
+    },
+    {
         "sequence": "18",
         "date": "Jan. 2026",
         "theme": "transparent",
@@ -69,7 +122,8 @@
                 "text_wide": "This is part of a series of pages I worked on last year for the German magazine INGRAPHICS. The 85-pages magazine is dedicated to data vizualization, if you want to see all the maps I created for the magazine and many more great graphics from authors all over the world, you can get a copy here: <a target=\"_blank\" href=\"https://schwochow.shop/products/ingraphics-magazine\">https://schwochow.shop/products/ingraphics-magazine</a>"
             }
         ]
-    },{
+    },
+    {
         "sequence": "17",
         "date": "Dec. 2025",
         "theme": "white",
@@ -105,7 +159,8 @@
                 "text_wide": "Happy Hollidays, see you again in 2026!"
             }
         ]
-    },{
+    },
+    {
         "sequence": "16",
         "date": "Nov. 2025",
         "theme": "transparent",
@@ -150,7 +205,8 @@
                 "text_wide": "It’s a very busy city, and the sky is no exception. This is just a curiosity about how air traffic patterns can permanently draw shapes in the sky; it seemed to me that there was a story behind the patterns that could be briefly told. The accident that day was tragic; the city has many regulations for drones and helicopters, but even so, an accident can happen anytime, anywhere. <br><br> –Thanks for reading!"
             }
         ]
-    },{
+    },
+    {
         "sequence": "15",
         "date": "Nov. 2025",
         "theme": "white",
@@ -158,7 +214,7 @@
         "description": "Myanmar is home to about <a href='https://www.cia.gov/the-world-factbook/countries/burma/#people-and-society'>57 million.</a> The British ruled the country (Burma) since 1820 and gained full independence in 1948, but since then <a  target='_blank' href='https://www.cfr.org/global-conflict-tracker/conflict/rohingya-crisis-myanmar'>civil wars</a> have asphyxiated the country mostly due ethical conflicts and the struggle to balance power and the militias.",
         "main": "2025/myanmar-full.jpg",
         "body_complment": [
-           {
+            {
                 "text_wide": "The map above visualizes reports of political violence in Myanmar this year from both, state forces and political militias clustered in a 10km-grid. The details below show areas with high activity, red for state forces and blue for militias."
             },
             {
@@ -166,11 +222,13 @@
             },
             {
                 "image_small": "2025/myanmar-militia.jpg"
-            },{
+            },
+            {
                 "text_wide": "Since 2010, ACLED has been documenting political violence in Myanmar; you can find out more about their reports and how they gather information <a href='https://acleddata.com/methodology/myanmar' target='_blank'>about this country and other conflicts on their website.</a>"
             }
         ]
-    },{
+    },
+    {
         "sequence": "14",
         "date": "Nov. 2025",
         "theme": "transparent",
@@ -186,7 +244,8 @@
             },
             {
                 "image_small": "2025/DAY05-detail02.jpg"
-            },{
+            },
+            {
                 "text_wide": "I love to see the many geological features clashing into this place, many volcanic formations, plates pulling at different speeds and directions, rivers that evaporate, mountains and lakes everywhere... But tuns out that not all, the region is also home of the oldest human ancestor, Lucy who died and probably lived its life in the Afar Triangle some 3 million years ago. Here you have 2 more close-up details of the main map."
             },
             {
@@ -194,11 +253,13 @@
             },
             {
                 "image_small": "2025/DAY05-detail04.jpg"
-            },{
+            },
+            {
                 "text_wide": "I'll try to post a few more maps to join the #30daymapchallenge of this year. I wish I can have a clone of my self to do more stuff! <br> –See you soon (hopefully)."
             }
         ]
-    },{
+    },
+    {
         "sequence": "13",
         "date": "Sept. 2025",
         "theme": "transparent",
@@ -225,7 +286,8 @@
                 "image_small": "2025/crc-204-terrain-detail-04.jpg"
             }
         ]
-    },{
+    },
+    {
         "sequence": "12",
         "date": "May 2025",
         "theme": "transparent",
@@ -246,7 +308,8 @@
                 "image_small": "2025/kerguelenzoom_25.jpg"
             }
         ]
-    },{
+    },
+    {
         "sequence": "11",
         "date": "March 2025",
         "theme": "white",
@@ -441,7 +504,7 @@
         "title": "Bali, Indonesia",
         "description": "The paradisiac Bali. In terms of the island's economy, tourism is the most important. Bali is one of the richest regions in Indonesia. For the past 20 or 30 years, the island has been turning to tourism, according to media such as <a target='_blank' href='https://web.archive.org/web/20080821140830/http://www.time.com/time/magazine/article/0,9171,393799,00.html'>Time Magazine.</a>",
         "main": "2024/bali-v1.jpg",
-        "body_complment": [            
+        "body_complment": [
             {
                 "text_wide": "However, tourists have brought some development to the island, but as with other natural paradises, this comes at a price. <br><br> A few years ago I spent a few days between Denpasar and Nusa Dua, and I can attest to how wonderful this place is. Perhaps those of us who visit these natural paradises should be more aware of what our days of joy can represent for the locals."
             },
@@ -483,7 +546,6 @@
         "description": "A few years ago, while working for Reuters, I lived for a few years on the warm and futuristic island of Singapore. I have very fond memories of that time: long walks along Marina Bay, the Gardens by the Bay, that place on Dempsey Hill where I used to take my family all the time, relaxing in the pool in my place in Clementi, or visiting Westgate and Jem, even the airport...",
         "main": "2024/singapore_v01.jpg",
         "body_complment": [
-           
             {
                 "text_wide": "To my friends there, I hope you all are doing great, living the good life. You are always in my thoughts."
             },
@@ -524,7 +586,7 @@
         "theme": "transparent",
         "description": "Santa María de Dota, mi pueblo natal, es un distrito de la provincia de San José, Costa Rica. Dota en general es conocida por su café y su clima fresco. He hecho varios mapas de mi pueblo por diversión, y este es uno de ellos. He añadido un par de detalles como mi casa resaltada sin ningún motivo, pero también recordar el lodo y los ríos que atraviesan el pueblo me traen muchos recuerdos de mis años en estos valles que se elevan a más de dos mil metros sobre el nivel del mar.",
         "main": "2024/dota_map_v1.jpg",
-        "body_complment": [            
+        "body_complment": [
             {
                 "text_wide": "Crecí entre cafetales, montañas y ríos. Y aunque ya hace muchos años que no vivo en Dota, siempre será mi hogar. Qué mejor manera de celebrar mis raíces que con un mapa de mi pueblo."
             },
