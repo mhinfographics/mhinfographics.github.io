@@ -217,8 +217,8 @@ p.permlink a span{
 }
 @media screen and (max-width: 600px) {
     #stories .story .wrapper img{
-        width: calc(100% + 50px)!important;
-        margin-left: -25px!important;
+        width: 100%;
+        margin-left: 0!important;
         margin-right: 0!important;
     }
 }

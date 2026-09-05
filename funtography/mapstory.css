@@ -13,12 +13,13 @@ body.white{
     font-size: 3rem;
 }
 .bottom-wrapper{
-    width: calc(100% - 30px);
+    width: calc(100% - 50px);
     max-width: 1000px;
     padding: 0px 25px 75px 25px;
     margin: 0px auto;
     position: relative;
     text-align: center;
+    box-sizing: content-box;
 }
 .bottom-wrapper ul{
     list-style: none;
