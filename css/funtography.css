@@ -61,6 +61,10 @@ h2{
     text-align: left;
     box-sizing: border-box;
 }
+#stories .story p a{
+    font-size: unset;
+    font-family: unset;
+}
 a.title-link{
     text-decoration: none;
     color: inherit;
