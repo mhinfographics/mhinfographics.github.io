@@ -148,6 +148,14 @@ p.permlink a span{
     font-style: normal;
     margin-right: 10px;
 }
+@media screen and (max-width: 600px) {
+    .desc::first-letter{
+        font-family: unset!important;
+        margin: 0!important;
+        font-style: unset!important;
+        initial-letter: unset!important;
+    }
+}
 #stories .story .wrapper .text .date{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
