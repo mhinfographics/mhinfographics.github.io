@@ -1,7 +1,13 @@
 [
     {
+        "thumb": "maps_falklands.jpg",
+        "link": "https://mhinfographics.github.io/funtography/10.html",
+        "category": "Blogging",
+        "tag": "Maps for fun",
+        "headline": "Ten maps to better understand the Falkland Islands (Malvinas)."
+    },{
         "thumb": "maps_calfire2025.jpg",
-        "link": "maps.html#proj-id_m10",
+        "link": "https://mhinfographics.github.io/funtography/10.html",
         "category": "Blogging",
         "tag": "Maps for fun",
         "headline": "Air allies: aerial response to the California wildfires of 2025."
@@ -39,6 +45,13 @@
         "category": "Work",
         "tag": "The New York Times",
         "headline": "FEB. 2024: Land is sinking into the ocean off the U.S. east coast."
+    },
+    {
+        "thumb": "maps_dca.jpg",
+        "link": "https://www.nytimes.com/interactive/2026/06/04/us/trump-arch-dc-airspace.html",
+        "category": "Work",
+        "tag": "The New York Times",
+        "headline": "JUN. 2026: Trump’s Arch Could Complicate DCA Airspace"
     },
     {
         "thumb": "maps_donbas.jpg",
