@@ -288,11 +288,52 @@ function randomizeSketches() {
         .catch(error => console.error('Error fetching sketch data:', error));
 }
 
+// Function to randomize maps when the "Randomize" button is clicked.
+function randomizeMaps() {
+    const container = document.getElementById('maps-container');
+    container.querySelectorAll('.card.project').forEach(card => card.remove());
+
+    fetch('data/maps.json')
+        .then(response => response.json())
+        .then(data => {
+            const projects = [];
+            const usedIndices = new Set();
+            while (projects.length < 4 && usedIndices.size < data.length) {
+                const randomIndex = Math.floor(Math.random() * data.length);
+                if (!usedIndices.has(randomIndex)) {
+                    projects.push(data[randomIndex]);
+                    usedIndices.add(randomIndex);
+                }
+            }
+
+            projects.forEach(project => {
+                const card = document.createElement('div');
+                card.className = 'card project';
+                card.innerHTML = `
+                    <a href="${project.link}" target="_blank">
+                        <img class="thumb" src="img/cards/${project.thumb}" alt="${project.headline}">
+                        <p class="date">${project.category}, ${project.tag}</p>
+                        <p class="head">${project.headline}</p>
+                    </a>
+                `;
+                container.appendChild(card);
+            });
+        })
+        .catch(error => console.error('Error fetching map data:', error));
+}
+
 document.addEventListener('DOMContentLoaded', () => {
-    const btn = document.getElementById('randomizer-button');
-    if (btn) btn.addEventListener('click', () => {
-        btn.classList.toggle('st01');
-        btn.classList.toggle('st02');
+    const sketchBtn = document.getElementById('randomizer-button-sketch');
+    if (sketchBtn) sketchBtn.addEventListener('click', () => {
+        sketchBtn.classList.toggle('st01');
+        sketchBtn.classList.toggle('st02');
         randomizeSketches();
+    });
+
+    const mapsBtn = document.getElementById('randomizer-button-maps');
+    if (mapsBtn) mapsBtn.addEventListener('click', () => {
+        mapsBtn.classList.toggle('st01');
+        mapsBtn.classList.toggle('st02');
+        randomizeMaps();
     });
 });

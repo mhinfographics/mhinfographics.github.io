@@ -1,5 +1,23 @@
 [
     {
+        "thumb": "maps_violence.jpg",
+        "link": "https://mhinfographics.github.io/funtography/15.html",
+        "category": "Blogging",
+        "tag": "Maps for fun",
+        "headline": "Myanmar political violence"
+    },{
+        "thumb": "maps_afar.jpg",
+        "link": "https://mhinfographics.github.io/funtography/14.html",
+        "category": "Blogging",
+        "tag": "Maps for fun",
+        "headline": "The Afar Triangle"
+    },{
+        "thumb": "maps_moon.jpg",
+        "link": "https://www.nytimes.com/interactive/2026/04/03/science/space/moon-map-nasa-artemis-ii.html",
+        "category": "work",
+        "tag": "The New York Times",
+        "headline": "Why We Chose to Go Back to the Moon"
+    },{
         "thumb": "maps_falklands.jpg",
         "link": "https://mhinfographics.github.io/funtography/10.html",
         "category": "Blogging",
@@ -13,7 +31,7 @@
         "headline": "Air allies: aerial response to the California wildfires of 2025."
     },{
         "thumb": "maps_dissapointment.jpg",
-        "link": "maps.html#proj-id_m09",
+        "link": "https://mhinfographics.github.io/funtography/09.html",
         "category": "Blogging",
         "tag": "Maps for fun",
         "headline": "Dissapointment Island"
