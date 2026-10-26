@@ -14,6 +14,8 @@
     if (!wrapper) return;
     handled.add(img);
 
+    img.setAttribute("draggable", "false");
+
     wrapper.querySelectorAll("." + GLASS_CLASS).forEach(function (old) {
       old.remove();
     });
@@ -81,6 +83,12 @@
 
     ["mousemove", "touchstart", "touchmove"].forEach(function (evt) {
       img.addEventListener(evt, moveMagnifier, { passive: false });
+    });
+    img.addEventListener("dragstart", function (e) {
+      e.preventDefault();
+    });
+    img.addEventListener("contextmenu", function (e) {
+      e.preventDefault();
     });
     img.addEventListener("mouseenter", refresh);
     wrapper.addEventListener("mouseleave", hide);

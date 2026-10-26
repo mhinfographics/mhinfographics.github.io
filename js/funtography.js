@@ -1,6 +1,6 @@
 //load stories
 window.onload = function () {
-    menuCheck();
+    menuCheck(); thumbnailCheck();
     let currentIndex = 0;
     let projects = [];
 
@@ -65,7 +65,7 @@ window.onload = function () {
     }
 
     function displayInitialCards() {
-        for (let i = 0; i < 3; i++) {
+        for (let i = 0; i < 1; i++) {
             displayCard();
         }
     }
@@ -91,4 +91,69 @@ function menuCheck() {
         button.setAttribute('disabled', 'true');
         button.classList.add('disabled');
     });
+}
+
+function thumbnailCheck() {
+    const entriesDiv = document.getElementById('mainEntries');
+    if (entriesDiv) {
+        const latestUl = entriesDiv.querySelector('.latest');
+        const numbersUl = entriesDiv.querySelector('.numbers');
+
+        if (latestUl || numbersUl) {
+            fetch('data/funtography.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    if (latestUl) {
+                        const latestEntries = data.slice(1, 4);
+                        latestEntries.forEach(entry => {
+                            const listItem = document.createElement('li');
+                            const sequence = String(entry.sequence).padStart(2, '0');
+                            const url = `funtography/${sequence}.html`;
+
+                            listItem.style.cursor = 'pointer';
+                            listItem.addEventListener('click', () => {
+                                window.location.href = url;
+                            });
+
+                            const thumbDiv = document.createElement('div');
+                            thumbDiv.className = 'thumb';
+                            thumbDiv.style.backgroundImage = `url(../img/maps/${entry.main})`;
+
+                            const p = document.createElement('p');
+                            p.innerHTML = `Nº${entry.sequence}– <span>${entry.title}</span>`;
+                            
+                            listItem.appendChild(thumbDiv);
+                            listItem.appendChild(p);
+
+                            latestUl.appendChild(listItem);
+                        });
+                    }
+
+                    if (numbersUl) {
+                        const allOtherEntries = data.slice(3);
+                        allOtherEntries.forEach(entry => {
+                            const listItem = document.createElement('li');
+                            const link = document.createElement('a');
+                            const sequence = String(entry.sequence).padStart(2, '0');
+                            const thumbnail = document.createElement('div');
+                            thumbnail.className = 'thumbnail';
+                            thumbnail.style.backgroundImage = `url(../img/maps/${entry.main})`;
+                            link.href = `funtography/${sequence}.html`;
+                            link.textContent = `Nº${sequence}`;
+                            listItem.appendChild(thumbnail);
+                            listItem.appendChild(link);
+                            numbersUl.appendChild(listItem);
+                        });
+                    }
+                })
+                .catch(error => {
+                    console.error('There has been a problem with your fetch operation:', error);
+                });
+        }
+    }
 }

@@ -104,11 +104,14 @@ body.white{
     width: 100%;
     height: auto;
     margin: 0 auto;
+    user-select: none;
 }
 .map_wrapper img{
     display: block;
     width: 100%;
     height: auto;
+    -webkit-touch-callout: none;
+    -webkit-user-drag: none;
 }
 .img-magnifier-glass {
     position: absolute;
