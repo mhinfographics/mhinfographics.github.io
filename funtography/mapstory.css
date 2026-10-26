@@ -120,8 +120,8 @@ body.white{
     border-radius: 50%;
     cursor: none;
     pointer-events: none;
-    width: 250px;
-    height: 250px;
+    width: 300px;
+    height: 300px;
     box-sizing: border-box;
     background-repeat: no-repeat;
     background-color: #ffffff;
