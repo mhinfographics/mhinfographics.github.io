@@ -27,7 +27,7 @@ window.onload = function () {
                         <a class="title-link" href="https://mhinfographics.github.io/funtography/${project.sequence}.html"><h3>${project.title}</h3></a>
                         <p class="desc">${project.description}</p>
                     </div>
-                    ${project.main ? `<img class="featured" src="img/maps/${project.main}" alt="${project.title}">` : ''}
+                    ${project.main ? `<div class="map_wrapper"><img class="featured" src="img/maps/${project.main}" alt="${project.title}"></div>` : ''}
                     ${project.body_complment ? `<div class="complements">${generateBodyComplement(project.body_complment)}</div>` : ''}
                     <div class="text">
                         <p class="date">
@@ -52,11 +52,11 @@ window.onload = function () {
             const key = Object.keys(item)[0];
             const value = item[key];
             if (key === 'image_small') {
-                content += `<img src="img/maps/${value}" class="complement" />`;
+                content += `<div class="map_wrapper complement"><img src="img/maps/${value}" class="complement" /></div>`;
             } else if (key === 'image_large') {
-                content += `<img src="img/maps/${value}" class="featured" />`;
+                content += `<div class="map_wrapper"><img src="img/maps/${value}" class="featured" /></div>`;
             } else if (key === 'image_body') {
-                content += `<img src="img/maps/${value}" class="body" />`;
+                content += `<div class="map_wrapper"><img src="img/maps/${value}" class="body" /></div>`;
             }  else if (key === 'text_wide') {
                 content += `<div class="text"><p>${value}</p></div>`;
             }

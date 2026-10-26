@@ -167,7 +167,8 @@ p.permlink a span{
 #stories .story .wrapper .complements{
     text-align: center;
 }
-#stories .story .wrapper .complements .complement{
+#stories .story .wrapper .complements .complement,
+#stories .story .wrapper .complements .map_wrapper.complement{
     width: 100%;
     max-width: 470px;
     height: auto;
