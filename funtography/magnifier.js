@@ -3,9 +3,6 @@
   var MIN_ZOOM = 2;
   var GLASS_CLASS = "img-magnifier-glass";
 
-  /* A WeakSet is used instead of a data-attribute because other scripts
-     rebuild the page with innerHTML, which would preserve the attribute
-     while discarding the listeners attached to the old nodes. */
   var handled = new WeakSet();
 
   function magnify(img) {
@@ -39,14 +36,16 @@
     }
 
     function getCursorPos(e) {
+      var customOffSet = 80;
       var point = e.touches && e.touches.length ? e.touches[0] : e;
       var rect = img.getBoundingClientRect();
-      return { x: point.clientX - rect.left, y: point.clientY - rect.top };
+      return { x: point.clientX - rect.left - customOffSet, y: point.clientY - rect.top  - customOffSet - 30};
     }
 
     function moveMagnifier(e) {
       var w = img.offsetWidth;
       var h = img.offsetHeight;
+
       if (!w || !h) return;
 
       if (e.cancelable && e.type.indexOf("touch") === 0) e.preventDefault();

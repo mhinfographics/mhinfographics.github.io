@@ -105,6 +105,7 @@ body.white{
     height: auto;
     margin: 0 auto;
     user-select: none;
+    cursor: none;
 }
 .map_wrapper img{
     display: block;
@@ -112,6 +113,7 @@ body.white{
     height: auto;
     -webkit-touch-callout: none;
     -webkit-user-drag: none;
+    cursor: none;
 }
 .img-magnifier-glass {
     position: absolute;
